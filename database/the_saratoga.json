@@ -1,0 +1,407 @@
+[
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 3001,
+            "nickname": "Ramentic",
+            "location": "San Francisco",
+            "review_count": 1,
+            "date_dined": "December 9, 2018"
+        },
+        "review": {
+            "_id": 3001,
+            "ratings": {
+                "overall": 5,
+                "food": 4,
+                "service": 4,
+                "ambience": 3,
+                "value": 4,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "I went to Saratoga with friends for a lazy sunday brunch. Unfortunately, we had a booking for 2 people but another friend decided to join us too hence we were seated at the bar ( as they had no bigger tables available,either tables of two or big parties ) I would suggest you make your reservations in advance. \n It was a blessing in disguise as we got seats at the bar really,because the bartender was amazing and he made the best drinks, you should definitely try \"Grandma's Hot Cocoa\"- its a hot chocolate rendition to irish coffee. The other drink we had was \"Root\"- again a great gin based cocktail. \n Food and service was excellent too, the only thing that i think will bring my experience points down is that we ordered for billionaire's bacon but the server/ bartender forgot to order it, so when the rest of food arrived, the bacon took an additional 20 mins. Not the end of the world, the bacon was perfect!!!! \n Definitely recommend the place.",
+            "helpful_count": 0,
+            "tags": ["Bar Seating", "Vibrant Bar Scene"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 3002,
+            "nickname": "SrilaC",
+            "location": "San Francisco",
+            "review_count": 1,
+            "date_dined": "December 9, 2018"
+        },
+        "review": {
+            "_id": 3002,
+            "ratings": {
+                "overall": 3,
+                "food": 5,
+                "service": 1,
+                "ambience": 4,
+                "value": 3,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "Food was outstanding. Service was below average. We had a 6pm reservation for an early pre-theater dinner. Our server seemed to lose interest in us when he realized we were there for a light meal. There were four of us and between us we ordered two mains, two salads, fries, a vegetable, and an appetizer plus 4 cocktails and one glass of wine. Our appetizer came quickly and was finished long before we received our drinks. When a second round of drinks was ordered it took forever to get them along with the rest of our food. I would like to go back because the food was exceptionally good but our server was very sulky and slow. I can't imagine why because we were courteous and he would have been fully able to turn the table for an 8 o'clock seating.",
+            "helpful_count": 0,
+            "tags": ["Fun", "Pre/post Theatre"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 3003,
+            "nickname": "bjean",
+            "location": "San Francisco",
+            "review_count": 8,
+            "date_dined": "December 7, 2018"
+        },
+        "review": {
+            "_id": 3003,
+            "ratings": {
+                "overall": 2,
+                "food": 2,
+                "service": 2,
+                "ambience": 1,
+                "value": 2,
+                "noise_level": "energetic"
+            },
+            "recommend_to_friend": "false",
+            "text": "It was just ok nothing special. Steak was not seasoned well. Hen of the mushrooms was greasy. Mentioned it was my guest birthday that night- nada. Very noisy.",
+            "helpful_count": 0,
+            "tags": ["Special Occasion"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 3004,
+            "nickname": "OpenTable Diner",
+            "location": "San Francisco",
+            "review_count": 1,
+            "date_dined": "December 7, 2018"
+        },
+        "review": {
+            "_id": 3004,
+            "ratings": {
+                "overall": 2,
+                "food": 3,
+                "service": 4,
+                "ambience": 3,
+                "value": 3,
+                "noise_level": "energetic"
+            },
+            "recommend_to_friend": "false",
+            "text": "LOUD LOUDER LOUDEST!!!!!!!!!",
+            "helpful_count": 0,
+            "tags": []
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 3005,
+            "nickname": "JamesD",
+            "location": "San Francisco",
+            "review_count": 9,
+            "date_dined": "December 2, 2018"
+        },
+        "review": {
+            "_id": 3005,
+            "ratings": {
+                "overall": 5,
+                "food": 5,
+                "service": 5,
+                "ambience": 4,
+                "value": 4,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "Just the best new space in town every time. Add the Cubans hot dog the chrysanthemum and the I forget the other killer cocktails but it’s a place where IT IS ALL GOOD. \n Really. \n JD",
+            "helpful_count": 0,
+            "tags": ["Neighborhood Gem", "Hot Spot", "Handcrafted Cocktails"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 3006,
+            "nickname": "SusieB",
+            "location": "San Francisco",
+            "review_count": 1,
+            "date_dined": "December 2, 2018"
+        },
+        "review": {
+            "_id": 3006,
+            "ratings": {
+                "overall": 3,
+                "food": 3,
+                "service": 3,
+                "ambience": 5,
+                "value": 3,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "false",
+            "text": "After all the hype that I heard, the food was pretty disappointing for the price.",
+            "helpful_count": 0,
+            "tags": ["Hot Spot"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 3007,
+            "nickname": "TamiG",
+            "location": "San Francisco",
+            "review_count": 1,
+            "date_dined": "December 1, 2018"
+        },
+        "review": {
+            "_id": 3007,
+            "ratings": {
+                "overall": 5,
+                "food": 4,
+                "service": 5,
+                "ambience": 5,
+                "value": 5,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "Billionaires Bacon too expensive. They cut it half but kept the price the same. My favorite is the avacado toast yummy. \n Take some money it's not cheap 2 adults 1 teen. 4 cocktails, one soft drink. Four single items off menu. $105",
+            "helpful_count": 0,
+            "tags": ["Great for Lunch", "Hot Spot"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 3008,
+            "nickname": "OpenTable Diner",
+            "location": "Hawaii",
+            "review_count": 4,
+            "date_dined": "November 29, 2018"
+        },
+        "review": {
+            "_id": 3008,
+            "ratings": {
+                "overall": 3,
+                "food": 3,
+                "service": 4,
+                "ambience": 4,
+                "value": 3,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "false",
+            "text": "Food was okay, restaurant was very cold (we kept our coats on for the first 30 minutes). Our food was not served hot. Cocktails seem to be the real focus.",
+            "helpful_count": 0,
+            "tags": ["Handcrafted Cocktails", "Late-night Find"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 3009,
+            "nickname": "OpenTable Diner",
+            "location": "San Francisco",
+            "review_count": 1,
+            "date_dined": "November 20, 2018"
+        },
+        "review": {
+            "_id": 3009,
+            "ratings": {
+                "overall": 5,
+                "food": 5,
+                "service": 5,
+                "ambience": 5,
+                "value": 5,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "What a great night at The Saratoga. My wife and I went for anniversary drinks and dinner. The staff at Saratoga were amazing and they went above and beyond to make the evening special for us. Thank you!",
+            "helpful_count": 0,
+            "tags": ["Good for Anniversaries", "Special Occasion", "Good for a Date", "Fun", "Romantic", "Neighborhood Gem"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 5010,
+            "nickname": "KarenD",
+            "location": "San Francisco",
+            "review_count": 21,
+            "date_dined": "November 11, 2018"
+        },
+        "review": {
+            "_id": 5010,
+            "ratings": {
+                "overall": 4,
+                "food": 2,
+                "service": 4,
+                "ambience": 3,
+                "value": 3,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "The screaming child at the seats by the bar did not enhance the experience. Did not like my food - the description of it was better than the real thing. Food generally good though; wine prices are steep.",
+            "helpful_count": 0,
+            "tags": ["Notable Wine List", "Handcrafted Cocktails"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 5011,
+            "nickname": "Caro123",
+            "location": "San Francisco",
+            "review_count": 2,
+            "date_dined": "November 4, 2018"
+        },
+        "review": {
+            "_id": 5011,
+            "ratings": {
+                "overall": 4,
+                "food": 3,
+                "service": 3,
+                "ambience": 5,
+                "value": 3,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "Dinner was very delicious but brunch was just okay. We got the jenga tots with salmon and the toppings ratio was way off. It’s a TON of potatoes even for 4 adults. And then there’s four small pieces of salmon. The Caesar was okay.",
+            "helpful_count": 0,
+            "tags": ["Comfort Food"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 5012,
+            "nickname": "Rlpgirl",
+            "location": "San Francisco",
+            "review_count": 1,
+            "date_dined": "November 4, 2018"
+        },
+        "review": {
+            "_id": 5012,
+            "ratings": {
+                "overall": 5,
+                "food": 4,
+                "service": 5,
+                "ambience": 5,
+                "value": 5,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "We enjoyed brunch at The Saratoga. It was easy to have a conversation at our table of four. Service was attentive. We weren’t rushed. I do think that the portion sizes were small. One of us ordered the hamburger based on reviews and said it was very good. However, the plate could have used some garnishment.",
+            "helpful_count": 0,
+            "tags": ["Great for Brunch", "Good for Groups", "Quiet Conversation"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 5013,
+            "nickname": "MiroslavK",
+            "location": "San Francisco",
+            "review_count": 1,
+            "date_dined": "October 21, 2018"
+        },
+        "review": {
+            "_id": 5013,
+            "ratings": {
+                "overall": 5,
+                "food": 5,
+                "service": 4,
+                "ambience": 4,
+                "value": 4,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "Great brunch! Billionaire’s bacon is a treat. Don’t miss the coffee cake! Major fun!",
+            "helpful_count": 0,
+            "tags": ["Fun", "Great for Brunch", "Comfort Food"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 5014,
+            "nickname": "OpenTable Diner",
+            "location": "Dublin",
+            "review_count": 1,
+            "date_dined": "October 21, 2018"
+        },
+        "review": {
+            "_id": 5014,
+            "ratings": {
+                "overall": 5,
+                "food": 5,
+                "service": 5,
+                "ambience": 5,
+                "value": 5,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "Very welcoming staff, great food ! Great fun",
+            "helpful_count": 0,
+            "tags": ["Fun", "Late-night Find"]
+        }
+    },
+    {
+        "restaurant": {
+            "id": 1
+        },
+        "reviewer": {
+            "_id": 5015,
+            "nickname": "Lura",
+            "location": "Raleigh",
+            "review_count": 1,
+            "date_dined": "October 21, 2018"
+        },
+        "review": {
+            "_id": 5015,
+            "ratings": {
+                "overall": 5,
+                "food": 5,
+                "service": 5,
+                "ambience": 5,
+                "value": 5,
+                "noise_level": "moderate"
+            },
+            "recommend_to_friend": "true",
+            "text": "The Billionaire's Bacon changed my life. I will never ever ever ever be the same.",
+            "helpful_count": 0,
+            "tags": ["Comfort Food", "Cozy"]
+        }
+    }
+]
