@@ -88,10 +88,9 @@ const generateTags = () => {
 };
 const generateRestaurantId = () => faker.random.number({ min: 2, max: 100 });
 
-const generator = (callback) => {
+const generateReviews = (callback) => {
   const reviews = [];
   for (let i = 0; i <= 3000; i += 1) {
-    // for (var i = 0; i <= 2; i++) {
     reviews.push({
       restaurant: {
         id: generateRestaurantId(),
@@ -123,7 +122,7 @@ const generator = (callback) => {
   callback(reviews.concat(saratogaData));
 };
 
-generator((reviews) => {
+generateReviews((reviews) => {
   db.conn.then(() => {
     db.save(reviews, (err, res) => {
       if (err) {
