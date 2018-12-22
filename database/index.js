@@ -53,12 +53,7 @@ const save = (reviews, callback) => {
   Review.insertMany(reviews, callback);
 };
 
-const countReviews = (restId, callback) => {
-  Review.count({ restaurant: { id: restId } })
-    .exec(callback);
-};
-
-const retrieveReviews = (restId, pageNum, sort, callback) => {
+const retrieveReviews = (restId, sort, callback) => {
   let sortQuery;
   if (sort === 'newest') {
     sortQuery = { 'reviewer.date_dined': -1 };
@@ -67,17 +62,8 @@ const retrieveReviews = (restId, pageNum, sort, callback) => {
   } else if (sort === 'lowest_rating') {
     sortQuery = { 'review.ratings.overall': 1 };
   }
-  const pageSize = 15;
-  let skipQuery;
-  if (pageNum === 1) {
-    skipQuery = 0;
-  } else if (pageNum > 1) {
-    skipQuery = pageSize * (pageNum - 1);
-  }
   Review.find({ restaurant: { id: restId } })
     .sort(sortQuery)
-    .limit(15)
-    .skip(skipQuery)
     .exec(callback);
 };
 
@@ -91,5 +77,4 @@ module.exports = {
   save,
   retrieveReviews,
   updateHelpfulCount,
-  countReviews,
 };
