@@ -4,14 +4,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 3001,
+            "id": 3001,
             "nickname": "Ramentic",
             "location": "San Francisco",
             "review_count": 1,
-            "date_dined": "December 9, 2018"
+            "date_dined": "2018-12-09T06:33:48.261Z"
         },
         "review": {
-            "_id": 3001,
+            "id": 3001,
             "ratings": {
                 "overall": 5,
                 "food": 4,
@@ -31,14 +31,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 3002,
+            "id": 3002,
             "nickname": "SrilaC",
             "location": "San Francisco",
             "review_count": 1,
-            "date_dined": "December 9, 2018"
+            "date_dined": "2018-12-09T06:33:48.261Z"
         },
         "review": {
-            "_id": 3002,
+            "id": 3002,
             "ratings": {
                 "overall": 3,
                 "food": 5,
@@ -58,14 +58,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 3003,
+            "id": 3003,
             "nickname": "bjean",
             "location": "San Francisco",
             "review_count": 8,
-            "date_dined": "December 7, 2018"
+            "date_dined": "2018-12-07T06:33:48.261Z"
         },
         "review": {
-            "_id": 3003,
+            "id": 3003,
             "ratings": {
                 "overall": 2,
                 "food": 2,
@@ -85,14 +85,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 3004,
+            "id": 3004,
             "nickname": "OpenTable Diner",
             "location": "San Francisco",
             "review_count": 1,
-            "date_dined": "December 7, 2018"
+            "date_dined": "2018-12-07T06:33:48.261Z"
         },
         "review": {
-            "_id": 3004,
+            "id": 3004,
             "ratings": {
                 "overall": 2,
                 "food": 3,
@@ -112,14 +112,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 3005,
+            "id": 3005,
             "nickname": "JamesD",
             "location": "San Francisco",
             "review_count": 9,
-            "date_dined": "December 2, 2018"
+            "date_dined": "2018-12-02T06:33:48.261Z"
         },
         "review": {
-            "_id": 3005,
+            "id": 3005,
             "ratings": {
                 "overall": 5,
                 "food": 5,
@@ -139,14 +139,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 3006,
+            "id": 3006,
             "nickname": "SusieB",
             "location": "San Francisco",
             "review_count": 1,
-            "date_dined": "December 2, 2018"
+            "date_dined": "2018-12-02T06:33:48.261Z"
         },
         "review": {
-            "_id": 3006,
+            "id": 3006,
             "ratings": {
                 "overall": 3,
                 "food": 3,
@@ -166,14 +166,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 3007,
+            "id": 3007,
             "nickname": "TamiG",
             "location": "San Francisco",
             "review_count": 1,
-            "date_dined": "December 1, 2018"
+            "date_dined": "2018-12-01T06:33:48.261Z"
         },
         "review": {
-            "_id": 3007,
+            "id": 3007,
             "ratings": {
                 "overall": 5,
                 "food": 4,
@@ -193,14 +193,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 3008,
+            "id": 3008,
             "nickname": "OpenTable Diner",
             "location": "Hawaii",
             "review_count": 4,
-            "date_dined": "November 29, 2018"
+            "date_dined": "2018-11-29T06:33:48.261Z"
         },
         "review": {
-            "_id": 3008,
+            "id": 3008,
             "ratings": {
                 "overall": 3,
                 "food": 3,
@@ -220,14 +220,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 3009,
+            "id": 3009,
             "nickname": "OpenTable Diner",
             "location": "San Francisco",
             "review_count": 1,
-            "date_dined": "November 20, 2018"
+            "date_dined": "2018-11-20T06:33:48.261Z"
         },
         "review": {
-            "_id": 3009,
+            "id": 3009,
             "ratings": {
                 "overall": 5,
                 "food": 5,
@@ -247,14 +247,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 5010,
+            "id": 5010,
             "nickname": "KarenD",
             "location": "San Francisco",
             "review_count": 21,
-            "date_dined": "November 11, 2018"
+            "date_dined": "2018-11-11T06:33:48.261Z"
         },
         "review": {
-            "_id": 5010,
+            "id": 5010,
             "ratings": {
                 "overall": 4,
                 "food": 2,
@@ -274,14 +274,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 5011,
+            "id": 5011,
             "nickname": "Caro123",
             "location": "San Francisco",
             "review_count": 2,
-            "date_dined": "November 4, 2018"
+            "date_dined": "2018-11-04T06:33:48.261Z"
         },
         "review": {
-            "_id": 5011,
+            "id": 5011,
             "ratings": {
                 "overall": 4,
                 "food": 3,
@@ -301,14 +301,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 5012,
+            "id": 5012,
             "nickname": "Rlpgirl",
             "location": "San Francisco",
             "review_count": 1,
-            "date_dined": "November 4, 2018"
+            "date_dined": "2018-11-04T06:33:48.261Z"
         },
         "review": {
-            "_id": 5012,
+            "id": 5012,
             "ratings": {
                 "overall": 5,
                 "food": 4,
@@ -328,14 +328,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 5013,
+            "id": 5013,
             "nickname": "MiroslavK",
             "location": "San Francisco",
             "review_count": 1,
-            "date_dined": "October 21, 2018"
+            "date_dined": "2018-10-21T06:33:48.261Z"
         },
         "review": {
-            "_id": 5013,
+            "id": 5013,
             "ratings": {
                 "overall": 5,
                 "food": 5,
@@ -355,14 +355,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 5014,
+            "id": 5014,
             "nickname": "OpenTable Diner",
             "location": "Dublin",
             "review_count": 1,
-            "date_dined": "October 21, 2018"
+            "date_dined": "2018-10-21T06:33:48.261Z"
         },
         "review": {
-            "_id": 5014,
+            "id": 5014,
             "ratings": {
                 "overall": 5,
                 "food": 5,
@@ -382,14 +382,14 @@
             "id": 1
         },
         "reviewer": {
-            "_id": 5015,
+            "id": 5015,
             "nickname": "Lura",
             "location": "Raleigh",
             "review_count": 1,
-            "date_dined": "October 21, 2018"
+            "date_dined": "2018-10-21T06:33:48.261Z"
         },
         "review": {
-            "_id": 5015,
+            "id": 5015,
             "ratings": {
                 "overall": 5,
                 "food": 5,
