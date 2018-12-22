@@ -8,12 +8,16 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "seed": "node database/seed.js"
+    "seed": "node database/seed.js",
+    "server-dev": "nodemon server/index.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "faker": "^4.1.0",
-    "mongoose": "^5.4.0"
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
   },
   "devDependencies": {
     "eslint": "^5.10.0",

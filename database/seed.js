@@ -5,21 +5,7 @@ const saratogaData = require('./the_saratoga.json');
 const generateNickname = () => faker.name.firstName() + faker.name.lastName().slice(0, 1);
 const generateLocation = () => faker.address.city();
 const generateReviewCount = () => faker.random.number({ min: 1, max: 27 });
-const generateDateDined = () => faker.random.arrayElement([
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-]) + faker.random.number({ min: 1, max: 27 }).toString() + faker.random.arrayElement(['2016', '2017', '2018']);
-
+const generateDateDined = () => faker.date.between('2016-01-01', '2018-12-21');
 const generateRatings = () => faker.random.number({ min: 1, max: 5 });
 const generateNoiseLevel = () => faker.random.arrayElement(['do not recall', 'quiet', 'moderate', 'energetic']);
 const generateRecommend = () => faker.random.boolean();
@@ -96,14 +82,14 @@ const generateReviews = (callback) => {
         id: generateRestaurantId(),
       },
       reviewer: {
-        _id: i,
+        id: i,
         nickname: generateNickname(),
         location: generateLocation(),
         review_count: generateReviewCount(),
         date_dined: generateDateDined(),
       },
       review: {
-        _id: i,
+        id: i,
         ratings: {
           overall: generateRatings(),
           food: generateRatings(),

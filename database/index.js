@@ -1,35 +1,36 @@
-const uri = 'mongodb://localhost:27017/fec'
-const mongoose = require('mongoose'); 
+const uri = 'mongodb://localhost:27017/fec';
+const mongoose = require('mongoose');
+
 const serverOptions = {
-    auto_reconnect: true,    
-    socketOptions: {
-        keepAlive: 1,    
-        connectTimeoutMS: 9000000,    
-        socketTimeoutMS: 9000000,
-    }
+  auto_reconnect: true,
+  socketOptions: {
+    keepAlive: 1,
+    connectTimeoutMS: 9000000,
+    socketTimeoutMS: 9000000,
+  },
 };
 const conn = mongoose.createConnection(uri, {
-    server: serverOptions
+  server: serverOptions,
 });
 
 const reviewsSchema = mongoose.Schema({
   restaurant: {
-      id: Number,
+    id: Number,
   },
   reviewer: {
-    _id: {
-        type: Number,
-        unique: true
+    id: {
+      type: Number,
+      unique: true,
     },
     nickname: String,
     location: String,
     review_count: Number,
-    date_dined: String
+    date_dined: Date,
   },
   review: {
-    _id: {
-        type: Number,
-        unique: true
+    id: {
+      type: Number,
+      unique: true,
     },
     ratings: {
       overall: Number,
@@ -46,13 +47,34 @@ const reviewsSchema = mongoose.Schema({
   },
 });
 
-let Review = conn.model('Review', reviewsSchema);
+const Review = conn.model('Review', reviewsSchema);
 
 const save = (reviews, callback) => {
-    Review.insertMany(reviews, callback);
-}
+  Review.insertMany(reviews, callback);
+};
+
+const retrieveReviews = (restId, sort, callback) => {
+  let sortQuery;
+  if (sort === 'newest') {
+    sortQuery = { 'reviewer.date_dined': -1 };
+  } else if (sort === 'highest_rating') {
+    sortQuery = { 'review.ratings.overall': -1 };
+  } else if (sort === 'lowest_rating') {
+    sortQuery = { 'review.ratings.overall': 1 };
+  }
+  Review.find({ restaurant: { id: restId } })
+    .sort(sortQuery)
+    .exec(callback);
+};
+
+const updateHelpfulCount = (reviewId, callback) => {
+  Review.findOneAndUpdate({ 'review.id': reviewId }, { $inc: { 'review.helpful_count': 1 } })
+    .exec(callback);
+};
 
 module.exports = {
-    conn,
-    save
-}
+  conn,
+  save,
+  retrieveReviews,
+  updateHelpfulCount,
+};
