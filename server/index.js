@@ -6,24 +6,22 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const db = require('./../database/index.js');
 
-app.use('/restaurants/:id', express.static(`${__dirname}/../client/dist`));
 app.use(morgan('tiny'));
 app.use(bodyParser());
 
-app.get('/api/restaurants/:restaurant_id/reviews', (req, res) => {
+app.use('/api/restaurants/:id', express.static(`${__dirname}/../client/dist`));
+
+app.get('/api/restaurants/:id/reviews', (req, res) => {
   let sortQuery = 'newest';
   if (req.query.sort) {
     sortQuery = req.query.sort;
   }
-  const parsedId = parseInt(req.params.restaurant_id, 10);
+  const parsedId = parseInt(req.params.id, 10);
   db.retrieveReviews(parsedId, sortQuery, (err, results) => {
     if (err) {
       console.log(err);
     }
-    const response = {
-      data: results,
-    }
-    res.send(response);
+    res.send(results);
   });
 });
 
