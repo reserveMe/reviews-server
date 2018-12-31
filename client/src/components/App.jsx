@@ -1,0 +1,76 @@
+/* eslint-disable import/extensions */
+import React from 'react';
+import Url from 'url-parse';
+import ReviewOverview from './ReviewOverview.jsx';
+import RatingsGraph from './RatingsGraph.jsx';
+import SortReviews from './SortReviews.jsx';
+import PaginatedReviews from './PaginatedReviews.jsx';
+
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      reviews: [],
+      sortBy: 'newest',
+      filteredReviews: [],
+    };
+    this.getReviewsSorted = this.getReviewsSorted.bind(this);
+    this.handleRatingsFilterChange = this.handleRatingsFilterChange.bind(this);
+    this.handleSortByChange = this.handleSortByChange.bind(this);
+  }
+
+  componentDidMount() {
+    const url = new Url(window.location.href);
+    const id = url.pathname.split('/')[3];
+    // eslint-disable-next-line no-undef
+    fetch(`/api/restaurants/${id}/reviews`)
+    // eslint-disable-next-line arrow-parens
+      .then(response => response.json())
+      .then((data) => {
+        this.setState({
+          reviews: data,
+        });
+      });
+  }
+
+  getReviewsSorted() {
+    const url = new Url(window.location.href);
+    const id = url.pathname.split('/')[3];
+    const { sortBy } = this.state;
+    // eslint-disable-next-line no-undef
+    fetch(`/api/restaurants/${id}/reviews?sort=${sortBy}`)
+      // eslint-disable-next-line arrow-parens
+      .then(response => response.json())
+      .then((data) => {
+        this.setState({
+          reviews: data,
+        });
+      });
+  }
+
+  handleSortByChange(sort) {
+    this.setState({
+      sortBy: sort,
+    }, () => this.getReviewsSorted());
+  }
+
+  handleRatingsFilterChange(rating) {
+    const ratingNum = parseInt(rating, 10);
+    const filteredReviews = this.state.reviews.filter(element => element.review.ratings.overall === ratingNum);
+    this.setState({
+      filteredReviews,
+    });
+  }
+
+  render() {
+    const pagedReviews = this.state.filteredReviews.length ? this.state.filteredReviews : this.state.reviews;
+    return (
+      <div className="reviewsTotal">
+        <ReviewOverview reviews={this.state.reviews} />
+        <RatingsGraph handleRatingsFilter={this.handleRatingsFilterChange} />
+        <SortReviews handleSortByChange={this.handleSortByChange} />
+        <PaginatedReviews reviews={pagedReviews} />
+      </div>
+    );
+  }
+}
