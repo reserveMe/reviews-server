@@ -15,6 +15,13 @@ function setup() {
 }
 
 describe('App', () => {
+  it('Should be defined', () => {
+    expect(App).toBeDefined();
+  });
+  it('Should render', () => {
+    const wrapper = shallow(<App />);
+    expect(wrapper.exists()).toBe(true);
+  });
   it('Should have a reviews state', () => {
     const { wrapper } = setup();
     const stateProps = wrapper.state();
