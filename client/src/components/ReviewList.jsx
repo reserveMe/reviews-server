@@ -1,23 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ReviewListEntry from './ReviewListEntry.jsx';
 
-class ReviewList extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      pageNum: 1,
-    };
-  }
+const ReviewList = (props) => {
+  const { reviews } = props;
+  return (
+    <div className="reviewEntries">
+      {reviews.map(review => (
+        <ReviewListEntry key={review.review.id} review={review} />
+      ))}
+    </div>
+  );
+};
 
-  render() {
-    return (
-      <div className="reviewEntries">
-        {this.props.reviews.map(review => (
-          <ReviewListEntry review={review} />
-        ))}
-      </div>
-    );
-  }
-}
+ReviewList.propTypes = {
+  reviews: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
 
 export default ReviewList;
