@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import * as Styled from './styles/SortReviewsStyles.jsx';
 
 class SortReviews extends React.Component {
   constructor(props) {
@@ -11,11 +12,10 @@ class SortReviews extends React.Component {
   }
 
   handleSortChange(e) {
-    const { handleSortByChange } = this.props;
     this.setState({
       selected: e.target.value,
     });
-    handleSortByChange(e.target.value);
+    this.props.handleSortByChange(e.target.value);
   }
 
   render() {
@@ -23,12 +23,12 @@ class SortReviews extends React.Component {
     return (
       <form>
         <label>
-          Sort by
-          <select id={selected} value={selected} onChange={this.handleSortChange}>
+          <Styled.SortLabel>Sort by</Styled.SortLabel>
+          <Styled.SortSelector id={selected} value={selected} onChange={this.handleSortChange}>
             <option value="newest">Newest</option>
             <option value="highest_rating">Highest rating</option>
             <option value="lowest_rating">Lowest rating</option>
-          </select>
+          </Styled.SortSelector>
         </label>
       </form>
     );

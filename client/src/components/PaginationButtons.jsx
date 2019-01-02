@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import * as Styled from './styles/PaginationButtonStyles.jsx';
 
 class PaginationButtons extends React.Component {
   constructor(props) {
@@ -15,9 +16,9 @@ class PaginationButtons extends React.Component {
   render() {
     const { pageNum } = this.props;
     return (
-      <button type="button" id={pageNum} onClick={this.handlePageClick}>
+      <Styled.PaginationButton type="button" id={pageNum} onClick={this.handlePageClick}>
         {pageNum}
-      </button>
+      </Styled.PaginationButton>
     );
   }
 }

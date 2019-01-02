@@ -5,6 +5,8 @@ import ReviewOverview from './ReviewOverview.jsx';
 import RatingsGraph from './RatingsGraph.jsx';
 import SortReviews from './SortReviews.jsx';
 import PaginatedReviews from './PaginatedReviews.jsx';
+import * as Styled from './styles/AppStyles.jsx';
+import GlobalStyle from './styles/GlobalStyle.jsx';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -66,10 +68,15 @@ export default class App extends React.Component {
     const pagedReviews = this.state.filteredReviews.length ? this.state.filteredReviews : this.state.reviews;
     return (
       <div className="reviewsTotal">
-        <ReviewOverview reviews={this.state.reviews} />
-        <RatingsGraph handleRatingsFilter={this.handleRatingsFilterChange} />
+        <Styled.ReviewOverviewTitle>What {this.state.reviews.length} People are Saying</Styled.ReviewOverviewTitle>
+        <Styled.RatingsOverviewTitle>Overall ratings and reviews</Styled.RatingsOverviewTitle>
+        <Styled.RatingsOverviewTable>
+          <ReviewOverview reviews={this.state.reviews} />
+          <RatingsGraph reviews={this.state.reviews} handleRatingsFilter={this.handleRatingsFilterChange} />
+        </Styled.RatingsOverviewTable>
         <SortReviews handleSortByChange={this.handleSortByChange} />
         <PaginatedReviews reviews={pagedReviews} />
+        <GlobalStyle />
       </div>
     );
   }
