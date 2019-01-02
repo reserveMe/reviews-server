@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // eslint-disable-next-line import/extensions
 import FilterReviewsButton from './FilterReviewsButton.jsx';
+import * as Styled from './styles/FilterReviewsStyles.jsx';
 
 const FilterReviews = (props) => {
   const { reviews, handleReviewsFilter } = props;
@@ -31,6 +32,9 @@ const FilterReviews = (props) => {
   const topTags = sortedTags.slice(0, 4);
   return (
     <div className="reviewFilters">
+      <Styled.FilterTitle>
+        Filters
+      </Styled.FilterTitle>
       {topTags.map(tag => (
         <FilterReviewsButton key={tag} tag={tag} handleReviewsFilter={handleReviewsFilter} />
       ))}

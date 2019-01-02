@@ -4,6 +4,7 @@ import _ from 'underscore';
 import ReviewList from './ReviewList.jsx';
 import PaginationButtons from './PaginationButtons.jsx';
 import FilterReviews from './FilterReviews.jsx';
+import * as Styled from './styles/PaginationButtonStyles.jsx';
 
 class PaginatedReviews extends React.Component {
   constructor(props) {
@@ -47,9 +48,11 @@ class PaginatedReviews extends React.Component {
       <div className="reviewPagination">
         <FilterReviews reviews={this.props.reviews} handleReviewsFilter={this.handleReviewsFilter} />
         <ReviewList reviews={reviews} />
-        {pageNums.map(pageNum => (
-          <PaginationButtons key={pageNum} pageNum={pageNum} handlePageRender={this.handlePageRender} />
-        ))}
+        <Styled.PaginationRow>
+          {pageNums.map(pageNum => (
+            <PaginationButtons key={pageNum} pageNum={pageNum} handlePageRender={this.handlePageRender} />
+          ))}
+        </Styled.PaginationRow>
       </div>
     );
   }
