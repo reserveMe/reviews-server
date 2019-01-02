@@ -1,0 +1,2898 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginatedReviews Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PaginatedReviews
+    reviews={
+      Array [
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 0,
+            "id": 99,
+            "ratings": Object {
+              "ambience": 1,
+              "food": 3,
+              "noise_level": "moderate",
+              "overall": 4,
+              "service": 1,
+              "value": 2,
+            },
+            "recommend_to_friend": false,
+            "tags": Array [
+              "Seasonal",
+              "Spicy",
+              "People Watching",
+              "Handcrafted Cocktails",
+            ],
+            "text": "Aliquid et ea maiores dolores voluptas dolorum nemo dolores. Necessitatibus deleniti magni fugit exercitationem nesciunt eum laudantium iste ipsa. Totam aut quasi rerum quidem id consequatur nam atque. Incidunt vitae aperiam quas dolor. Dolor perspiciatis fuga commodi aspernatur qui.",
+          },
+          "reviewer": Object {
+            "date_dined": "2018-08-30T18:38:51.322Z",
+            "id": 99,
+            "location": "North Jordane",
+            "nickname": "OlinU",
+            "review_count": 4,
+          },
+        },
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 3,
+            "id": 265,
+            "ratings": Object {
+              "ambience": 3,
+              "food": 5,
+              "noise_level": "moderate",
+              "overall": 2,
+              "service": 4,
+              "value": 5,
+            },
+            "recommend_to_friend": true,
+            "tags": Array [
+              "Afternoon Tea",
+            ],
+            "text": "Sunt dicta fugiat in doloremque. Accusantium et ipsam aut voluptatem perferendis aliquid possimus perspiciatis rerum. Nihil dignissimos voluptatem qui. Aut saepe iste aut qui deserunt recusandae. Nihil beatae quis quae suscipit sunt dolor et dolores.",
+          },
+          "reviewer": Object {
+            "date_dined": "2016-01-12T08:38:21.784Z",
+            "id": 265,
+            "location": "Idellafort",
+            "nickname": "MaidaS",
+            "review_count": 14,
+          },
+        },
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 0,
+            "id": 382,
+            "ratings": Object {
+              "ambience": 1,
+              "food": 4,
+              "noise_level": "do not recall",
+              "overall": 2,
+              "service": 2,
+              "value": 3,
+            },
+            "recommend_to_friend": true,
+            "tags": Array [
+              "Late-night Find",
+            ],
+            "text": "Officiis molestias quam hic. Sint possimus commodi ea aut dolorem. Quo sint vel voluptas commodi. Distinctio fugit vel.",
+          },
+          "reviewer": Object {
+            "date_dined": "2018-08-19T22:33:56.578Z",
+            "id": 382,
+            "location": "New Violet",
+            "nickname": "KennithB",
+            "review_count": 26,
+          },
+        },
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 0,
+            "id": 401,
+            "ratings": Object {
+              "ambience": 1,
+              "food": 3,
+              "noise_level": "quiet",
+              "overall": 1,
+              "service": 5,
+              "value": 4,
+            },
+            "recommend_to_friend": false,
+            "tags": Array [],
+            "text": "Non omnis aut aut. Deserunt facere voluptatem reiciendis libero veritatis. Commodi ut autem.",
+          },
+          "reviewer": Object {
+            "date_dined": "2016-02-02T22:18:45.741Z",
+            "id": 401,
+            "location": "Port Benjamin",
+            "nickname": "BertS",
+            "review_count": 18,
+          },
+        },
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 2,
+            "id": 419,
+            "ratings": Object {
+              "ambience": 5,
+              "food": 3,
+              "noise_level": "energetic",
+              "overall": 1,
+              "service": 2,
+              "value": 3,
+            },
+            "recommend_to_friend": false,
+            "tags": Array [
+              "Organic",
+              "Neighborhood Gem",
+              "Great for Outdoor Dining",
+              "Waterfront",
+            ],
+            "text": "Omnis enim neque voluptas enim a distinctio quisquam eligendi. Quis aliquid repudiandae quisquam maiores vel sit distinctio nemo suscipit. Fugiat consequatur ad ab assumenda voluptatem.",
+          },
+          "reviewer": Object {
+            "date_dined": "2016-06-05T21:09:08.475Z",
+            "id": 419,
+            "location": "West Katherine",
+            "nickname": "CasimerD",
+            "review_count": 14,
+          },
+        },
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 1,
+            "id": 426,
+            "ratings": Object {
+              "ambience": 4,
+              "food": 1,
+              "noise_level": "do not recall",
+              "overall": 3,
+              "service": 3,
+              "value": 4,
+            },
+            "recommend_to_friend": false,
+            "tags": Array [
+              "Business Meals",
+              "Live Music",
+              "Spicy",
+              "Quiet Conversation",
+            ],
+            "text": "Dolore ullam nihil. Dolorum quae odit velit veritatis et et sed harum qui. Sequi similique quaerat consectetur reprehenderit quia quidem totam.",
+          },
+          "reviewer": Object {
+            "date_dined": "2018-05-25T08:12:04.582Z",
+            "id": 426,
+            "location": "East Marielachester",
+            "nickname": "CecilB",
+            "review_count": 5,
+          },
+        },
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 3,
+            "id": 553,
+            "ratings": Object {
+              "ambience": 3,
+              "food": 4,
+              "noise_level": "do not recall",
+              "overall": 4,
+              "service": 2,
+              "value": 3,
+            },
+            "recommend_to_friend": true,
+            "tags": Array [],
+            "text": "Dolorem beatae aliquid. Deserunt quisquam tenetur praesentium. Soluta quod labore.",
+          },
+          "reviewer": Object {
+            "date_dined": "2017-05-28T01:54:16.166Z",
+            "id": 553,
+            "location": "West Keegan",
+            "nickname": "BradS",
+            "review_count": 24,
+          },
+        },
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 1,
+            "id": 682,
+            "ratings": Object {
+              "ambience": 3,
+              "food": 1,
+              "noise_level": "quiet",
+              "overall": 4,
+              "service": 1,
+              "value": 2,
+            },
+            "recommend_to_friend": true,
+            "tags": Array [],
+            "text": "Aspernatur omnis deserunt aut qui voluptas. Molestiae rerum aliquid vero expedita sit. Tempora quisquam consequuntur sequi. Ad aut dolorem aliquam est dignissimos officiis.",
+          },
+          "reviewer": Object {
+            "date_dined": "2016-06-11T17:43:08.683Z",
+            "id": 682,
+            "location": "Kautzerborough",
+            "nickname": "VidalR",
+            "review_count": 18,
+          },
+        },
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 0,
+            "id": 843,
+            "ratings": Object {
+              "ambience": 2,
+              "food": 5,
+              "noise_level": "do not recall",
+              "overall": 1,
+              "service": 2,
+              "value": 3,
+            },
+            "recommend_to_friend": false,
+            "tags": Array [
+              "Comfort Food",
+              "Quiet Conversation",
+              "Fit for Foodies",
+              "Comfort Food",
+              "Healthy",
+            ],
+            "text": "Nihil culpa porro sed sed modi soluta esse. Rem autem a quod. Quo eos nostrum non. Debitis commodi tempore at mollitia.",
+          },
+          "reviewer": Object {
+            "date_dined": "2018-01-14T16:21:49.276Z",
+            "id": 843,
+            "location": "Beckerhaven",
+            "nickname": "PearlineF",
+            "review_count": 22,
+          },
+        },
+        Object {
+          "restaurant": Object {
+            "id": 25,
+          },
+          "review": Object {
+            "helpful_count": 2,
+            "id": 846,
+            "ratings": Object {
+              "ambience": 1,
+              "food": 2,
+              "noise_level": "do not recall",
+              "overall": 4,
+              "service": 3,
+              "value": 5,
+            },
+            "recommend_to_friend": true,
+            "tags": Array [
+              "Good for Birthdays",
+              "Organic",
+              "Vegan",
+              "Live Sports",
+              "Good for Birthdays",
+              "Great for Lunch",
+            ],
+            "text": "Culpa libero culpa qui aperiam cumque vitae quidem laborum aut. Ducimus neque vero at voluptate sunt voluptatem et autem quibusdam. Ullam consequatur ut et eaque. Sunt voluptas perferendis dolorem vitae odit possimus id mollitia aut. Aut consectetur reiciendis tempore commodi voluptatibus.",
+          },
+          "reviewer": Object {
+            "date_dined": "2018-06-28T22:07:28.736Z",
+            "id": 846,
+            "location": "South Kariane",
+            "nickname": "KaleyW",
+            "review_count": 13,
+          },
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <FilterReviews
+          handleReviewsFilter={[Function]}
+          reviews={
+            Array [
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 99,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 3,
+                    "noise_level": "moderate",
+                    "overall": 4,
+                    "service": 1,
+                    "value": 2,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Seasonal",
+                    "Spicy",
+                    "People Watching",
+                    "Handcrafted Cocktails",
+                  ],
+                  "text": "Aliquid et ea maiores dolores voluptas dolorum nemo dolores. Necessitatibus deleniti magni fugit exercitationem nesciunt eum laudantium iste ipsa. Totam aut quasi rerum quidem id consequatur nam atque. Incidunt vitae aperiam quas dolor. Dolor perspiciatis fuga commodi aspernatur qui.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-08-30T18:38:51.322Z",
+                  "id": 99,
+                  "location": "North Jordane",
+                  "nickname": "OlinU",
+                  "review_count": 4,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 3,
+                  "id": 265,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 5,
+                    "noise_level": "moderate",
+                    "overall": 2,
+                    "service": 4,
+                    "value": 5,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Afternoon Tea",
+                  ],
+                  "text": "Sunt dicta fugiat in doloremque. Accusantium et ipsam aut voluptatem perferendis aliquid possimus perspiciatis rerum. Nihil dignissimos voluptatem qui. Aut saepe iste aut qui deserunt recusandae. Nihil beatae quis quae suscipit sunt dolor et dolores.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-01-12T08:38:21.784Z",
+                  "id": 265,
+                  "location": "Idellafort",
+                  "nickname": "MaidaS",
+                  "review_count": 14,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 382,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 4,
+                    "noise_level": "do not recall",
+                    "overall": 2,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Late-night Find",
+                  ],
+                  "text": "Officiis molestias quam hic. Sint possimus commodi ea aut dolorem. Quo sint vel voluptas commodi. Distinctio fugit vel.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-08-19T22:33:56.578Z",
+                  "id": 382,
+                  "location": "New Violet",
+                  "nickname": "KennithB",
+                  "review_count": 26,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 401,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 3,
+                    "noise_level": "quiet",
+                    "overall": 1,
+                    "service": 5,
+                    "value": 4,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [],
+                  "text": "Non omnis aut aut. Deserunt facere voluptatem reiciendis libero veritatis. Commodi ut autem.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-02-02T22:18:45.741Z",
+                  "id": 401,
+                  "location": "Port Benjamin",
+                  "nickname": "BertS",
+                  "review_count": 18,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 2,
+                  "id": 419,
+                  "ratings": Object {
+                    "ambience": 5,
+                    "food": 3,
+                    "noise_level": "energetic",
+                    "overall": 1,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Organic",
+                    "Neighborhood Gem",
+                    "Great for Outdoor Dining",
+                    "Waterfront",
+                  ],
+                  "text": "Omnis enim neque voluptas enim a distinctio quisquam eligendi. Quis aliquid repudiandae quisquam maiores vel sit distinctio nemo suscipit. Fugiat consequatur ad ab assumenda voluptatem.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-06-05T21:09:08.475Z",
+                  "id": 419,
+                  "location": "West Katherine",
+                  "nickname": "CasimerD",
+                  "review_count": 14,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 1,
+                  "id": 426,
+                  "ratings": Object {
+                    "ambience": 4,
+                    "food": 1,
+                    "noise_level": "do not recall",
+                    "overall": 3,
+                    "service": 3,
+                    "value": 4,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Business Meals",
+                    "Live Music",
+                    "Spicy",
+                    "Quiet Conversation",
+                  ],
+                  "text": "Dolore ullam nihil. Dolorum quae odit velit veritatis et et sed harum qui. Sequi similique quaerat consectetur reprehenderit quia quidem totam.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-05-25T08:12:04.582Z",
+                  "id": 426,
+                  "location": "East Marielachester",
+                  "nickname": "CecilB",
+                  "review_count": 5,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 3,
+                  "id": 553,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 4,
+                    "noise_level": "do not recall",
+                    "overall": 4,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [],
+                  "text": "Dolorem beatae aliquid. Deserunt quisquam tenetur praesentium. Soluta quod labore.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2017-05-28T01:54:16.166Z",
+                  "id": 553,
+                  "location": "West Keegan",
+                  "nickname": "BradS",
+                  "review_count": 24,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 1,
+                  "id": 682,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 1,
+                    "noise_level": "quiet",
+                    "overall": 4,
+                    "service": 1,
+                    "value": 2,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [],
+                  "text": "Aspernatur omnis deserunt aut qui voluptas. Molestiae rerum aliquid vero expedita sit. Tempora quisquam consequuntur sequi. Ad aut dolorem aliquam est dignissimos officiis.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-06-11T17:43:08.683Z",
+                  "id": 682,
+                  "location": "Kautzerborough",
+                  "nickname": "VidalR",
+                  "review_count": 18,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 843,
+                  "ratings": Object {
+                    "ambience": 2,
+                    "food": 5,
+                    "noise_level": "do not recall",
+                    "overall": 1,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Comfort Food",
+                    "Quiet Conversation",
+                    "Fit for Foodies",
+                    "Comfort Food",
+                    "Healthy",
+                  ],
+                  "text": "Nihil culpa porro sed sed modi soluta esse. Rem autem a quod. Quo eos nostrum non. Debitis commodi tempore at mollitia.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-01-14T16:21:49.276Z",
+                  "id": 843,
+                  "location": "Beckerhaven",
+                  "nickname": "PearlineF",
+                  "review_count": 22,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 2,
+                  "id": 846,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 2,
+                    "noise_level": "do not recall",
+                    "overall": 4,
+                    "service": 3,
+                    "value": 5,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Good for Birthdays",
+                    "Organic",
+                    "Vegan",
+                    "Live Sports",
+                    "Good for Birthdays",
+                    "Great for Lunch",
+                  ],
+                  "text": "Culpa libero culpa qui aperiam cumque vitae quidem laborum aut. Ducimus neque vero at voluptate sunt voluptatem et autem quibusdam. Ullam consequatur ut et eaque. Sunt voluptas perferendis dolorem vitae odit possimus id mollitia aut. Aut consectetur reiciendis tempore commodi voluptatibus.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-06-28T22:07:28.736Z",
+                  "id": 846,
+                  "location": "South Kariane",
+                  "nickname": "KaleyW",
+                  "review_count": 13,
+                },
+              },
+            ]
+          }
+        />,
+        <ReviewList
+          reviews={
+            Array [
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 99,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 3,
+                    "noise_level": "moderate",
+                    "overall": 4,
+                    "service": 1,
+                    "value": 2,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Seasonal",
+                    "Spicy",
+                    "People Watching",
+                    "Handcrafted Cocktails",
+                  ],
+                  "text": "Aliquid et ea maiores dolores voluptas dolorum nemo dolores. Necessitatibus deleniti magni fugit exercitationem nesciunt eum laudantium iste ipsa. Totam aut quasi rerum quidem id consequatur nam atque. Incidunt vitae aperiam quas dolor. Dolor perspiciatis fuga commodi aspernatur qui.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-08-30T18:38:51.322Z",
+                  "id": 99,
+                  "location": "North Jordane",
+                  "nickname": "OlinU",
+                  "review_count": 4,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 3,
+                  "id": 265,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 5,
+                    "noise_level": "moderate",
+                    "overall": 2,
+                    "service": 4,
+                    "value": 5,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Afternoon Tea",
+                  ],
+                  "text": "Sunt dicta fugiat in doloremque. Accusantium et ipsam aut voluptatem perferendis aliquid possimus perspiciatis rerum. Nihil dignissimos voluptatem qui. Aut saepe iste aut qui deserunt recusandae. Nihil beatae quis quae suscipit sunt dolor et dolores.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-01-12T08:38:21.784Z",
+                  "id": 265,
+                  "location": "Idellafort",
+                  "nickname": "MaidaS",
+                  "review_count": 14,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 382,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 4,
+                    "noise_level": "do not recall",
+                    "overall": 2,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Late-night Find",
+                  ],
+                  "text": "Officiis molestias quam hic. Sint possimus commodi ea aut dolorem. Quo sint vel voluptas commodi. Distinctio fugit vel.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-08-19T22:33:56.578Z",
+                  "id": 382,
+                  "location": "New Violet",
+                  "nickname": "KennithB",
+                  "review_count": 26,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 401,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 3,
+                    "noise_level": "quiet",
+                    "overall": 1,
+                    "service": 5,
+                    "value": 4,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [],
+                  "text": "Non omnis aut aut. Deserunt facere voluptatem reiciendis libero veritatis. Commodi ut autem.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-02-02T22:18:45.741Z",
+                  "id": 401,
+                  "location": "Port Benjamin",
+                  "nickname": "BertS",
+                  "review_count": 18,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 2,
+                  "id": 419,
+                  "ratings": Object {
+                    "ambience": 5,
+                    "food": 3,
+                    "noise_level": "energetic",
+                    "overall": 1,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Organic",
+                    "Neighborhood Gem",
+                    "Great for Outdoor Dining",
+                    "Waterfront",
+                  ],
+                  "text": "Omnis enim neque voluptas enim a distinctio quisquam eligendi. Quis aliquid repudiandae quisquam maiores vel sit distinctio nemo suscipit. Fugiat consequatur ad ab assumenda voluptatem.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-06-05T21:09:08.475Z",
+                  "id": 419,
+                  "location": "West Katherine",
+                  "nickname": "CasimerD",
+                  "review_count": 14,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 1,
+                  "id": 426,
+                  "ratings": Object {
+                    "ambience": 4,
+                    "food": 1,
+                    "noise_level": "do not recall",
+                    "overall": 3,
+                    "service": 3,
+                    "value": 4,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Business Meals",
+                    "Live Music",
+                    "Spicy",
+                    "Quiet Conversation",
+                  ],
+                  "text": "Dolore ullam nihil. Dolorum quae odit velit veritatis et et sed harum qui. Sequi similique quaerat consectetur reprehenderit quia quidem totam.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-05-25T08:12:04.582Z",
+                  "id": 426,
+                  "location": "East Marielachester",
+                  "nickname": "CecilB",
+                  "review_count": 5,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 3,
+                  "id": 553,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 4,
+                    "noise_level": "do not recall",
+                    "overall": 4,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [],
+                  "text": "Dolorem beatae aliquid. Deserunt quisquam tenetur praesentium. Soluta quod labore.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2017-05-28T01:54:16.166Z",
+                  "id": 553,
+                  "location": "West Keegan",
+                  "nickname": "BradS",
+                  "review_count": 24,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 1,
+                  "id": 682,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 1,
+                    "noise_level": "quiet",
+                    "overall": 4,
+                    "service": 1,
+                    "value": 2,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [],
+                  "text": "Aspernatur omnis deserunt aut qui voluptas. Molestiae rerum aliquid vero expedita sit. Tempora quisquam consequuntur sequi. Ad aut dolorem aliquam est dignissimos officiis.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-06-11T17:43:08.683Z",
+                  "id": 682,
+                  "location": "Kautzerborough",
+                  "nickname": "VidalR",
+                  "review_count": 18,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 843,
+                  "ratings": Object {
+                    "ambience": 2,
+                    "food": 5,
+                    "noise_level": "do not recall",
+                    "overall": 1,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Comfort Food",
+                    "Quiet Conversation",
+                    "Fit for Foodies",
+                    "Comfort Food",
+                    "Healthy",
+                  ],
+                  "text": "Nihil culpa porro sed sed modi soluta esse. Rem autem a quod. Quo eos nostrum non. Debitis commodi tempore at mollitia.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-01-14T16:21:49.276Z",
+                  "id": 843,
+                  "location": "Beckerhaven",
+                  "nickname": "PearlineF",
+                  "review_count": 22,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 2,
+                  "id": 846,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 2,
+                    "noise_level": "do not recall",
+                    "overall": 4,
+                    "service": 3,
+                    "value": 5,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Good for Birthdays",
+                    "Organic",
+                    "Vegan",
+                    "Live Sports",
+                    "Good for Birthdays",
+                    "Great for Lunch",
+                  ],
+                  "text": "Culpa libero culpa qui aperiam cumque vitae quidem laborum aut. Ducimus neque vero at voluptate sunt voluptatem et autem quibusdam. Ullam consequatur ut et eaque. Sunt voluptas perferendis dolorem vitae odit possimus id mollitia aut. Aut consectetur reiciendis tempore commodi voluptatibus.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-06-28T22:07:28.736Z",
+                  "id": 846,
+                  "location": "South Kariane",
+                  "nickname": "KaleyW",
+                  "review_count": 13,
+                },
+              },
+            ]
+          }
+        />,
+        Array [
+          <PaginationButtons
+            handlePageRender={[Function]}
+            pageNum={1}
+          />,
+        ],
+      ],
+      "className": "reviewPagination",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "handleReviewsFilter": [Function],
+          "reviews": Array [
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 0,
+                "id": 99,
+                "ratings": Object {
+                  "ambience": 1,
+                  "food": 3,
+                  "noise_level": "moderate",
+                  "overall": 4,
+                  "service": 1,
+                  "value": 2,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [
+                  "Seasonal",
+                  "Spicy",
+                  "People Watching",
+                  "Handcrafted Cocktails",
+                ],
+                "text": "Aliquid et ea maiores dolores voluptas dolorum nemo dolores. Necessitatibus deleniti magni fugit exercitationem nesciunt eum laudantium iste ipsa. Totam aut quasi rerum quidem id consequatur nam atque. Incidunt vitae aperiam quas dolor. Dolor perspiciatis fuga commodi aspernatur qui.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-08-30T18:38:51.322Z",
+                "id": 99,
+                "location": "North Jordane",
+                "nickname": "OlinU",
+                "review_count": 4,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 3,
+                "id": 265,
+                "ratings": Object {
+                  "ambience": 3,
+                  "food": 5,
+                  "noise_level": "moderate",
+                  "overall": 2,
+                  "service": 4,
+                  "value": 5,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [
+                  "Afternoon Tea",
+                ],
+                "text": "Sunt dicta fugiat in doloremque. Accusantium et ipsam aut voluptatem perferendis aliquid possimus perspiciatis rerum. Nihil dignissimos voluptatem qui. Aut saepe iste aut qui deserunt recusandae. Nihil beatae quis quae suscipit sunt dolor et dolores.",
+              },
+              "reviewer": Object {
+                "date_dined": "2016-01-12T08:38:21.784Z",
+                "id": 265,
+                "location": "Idellafort",
+                "nickname": "MaidaS",
+                "review_count": 14,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 0,
+                "id": 382,
+                "ratings": Object {
+                  "ambience": 1,
+                  "food": 4,
+                  "noise_level": "do not recall",
+                  "overall": 2,
+                  "service": 2,
+                  "value": 3,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [
+                  "Late-night Find",
+                ],
+                "text": "Officiis molestias quam hic. Sint possimus commodi ea aut dolorem. Quo sint vel voluptas commodi. Distinctio fugit vel.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-08-19T22:33:56.578Z",
+                "id": 382,
+                "location": "New Violet",
+                "nickname": "KennithB",
+                "review_count": 26,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 0,
+                "id": 401,
+                "ratings": Object {
+                  "ambience": 1,
+                  "food": 3,
+                  "noise_level": "quiet",
+                  "overall": 1,
+                  "service": 5,
+                  "value": 4,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [],
+                "text": "Non omnis aut aut. Deserunt facere voluptatem reiciendis libero veritatis. Commodi ut autem.",
+              },
+              "reviewer": Object {
+                "date_dined": "2016-02-02T22:18:45.741Z",
+                "id": 401,
+                "location": "Port Benjamin",
+                "nickname": "BertS",
+                "review_count": 18,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 2,
+                "id": 419,
+                "ratings": Object {
+                  "ambience": 5,
+                  "food": 3,
+                  "noise_level": "energetic",
+                  "overall": 1,
+                  "service": 2,
+                  "value": 3,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [
+                  "Organic",
+                  "Neighborhood Gem",
+                  "Great for Outdoor Dining",
+                  "Waterfront",
+                ],
+                "text": "Omnis enim neque voluptas enim a distinctio quisquam eligendi. Quis aliquid repudiandae quisquam maiores vel sit distinctio nemo suscipit. Fugiat consequatur ad ab assumenda voluptatem.",
+              },
+              "reviewer": Object {
+                "date_dined": "2016-06-05T21:09:08.475Z",
+                "id": 419,
+                "location": "West Katherine",
+                "nickname": "CasimerD",
+                "review_count": 14,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 1,
+                "id": 426,
+                "ratings": Object {
+                  "ambience": 4,
+                  "food": 1,
+                  "noise_level": "do not recall",
+                  "overall": 3,
+                  "service": 3,
+                  "value": 4,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [
+                  "Business Meals",
+                  "Live Music",
+                  "Spicy",
+                  "Quiet Conversation",
+                ],
+                "text": "Dolore ullam nihil. Dolorum quae odit velit veritatis et et sed harum qui. Sequi similique quaerat consectetur reprehenderit quia quidem totam.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-05-25T08:12:04.582Z",
+                "id": 426,
+                "location": "East Marielachester",
+                "nickname": "CecilB",
+                "review_count": 5,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 3,
+                "id": 553,
+                "ratings": Object {
+                  "ambience": 3,
+                  "food": 4,
+                  "noise_level": "do not recall",
+                  "overall": 4,
+                  "service": 2,
+                  "value": 3,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [],
+                "text": "Dolorem beatae aliquid. Deserunt quisquam tenetur praesentium. Soluta quod labore.",
+              },
+              "reviewer": Object {
+                "date_dined": "2017-05-28T01:54:16.166Z",
+                "id": 553,
+                "location": "West Keegan",
+                "nickname": "BradS",
+                "review_count": 24,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 1,
+                "id": 682,
+                "ratings": Object {
+                  "ambience": 3,
+                  "food": 1,
+                  "noise_level": "quiet",
+                  "overall": 4,
+                  "service": 1,
+                  "value": 2,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [],
+                "text": "Aspernatur omnis deserunt aut qui voluptas. Molestiae rerum aliquid vero expedita sit. Tempora quisquam consequuntur sequi. Ad aut dolorem aliquam est dignissimos officiis.",
+              },
+              "reviewer": Object {
+                "date_dined": "2016-06-11T17:43:08.683Z",
+                "id": 682,
+                "location": "Kautzerborough",
+                "nickname": "VidalR",
+                "review_count": 18,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 0,
+                "id": 843,
+                "ratings": Object {
+                  "ambience": 2,
+                  "food": 5,
+                  "noise_level": "do not recall",
+                  "overall": 1,
+                  "service": 2,
+                  "value": 3,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [
+                  "Comfort Food",
+                  "Quiet Conversation",
+                  "Fit for Foodies",
+                  "Comfort Food",
+                  "Healthy",
+                ],
+                "text": "Nihil culpa porro sed sed modi soluta esse. Rem autem a quod. Quo eos nostrum non. Debitis commodi tempore at mollitia.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-01-14T16:21:49.276Z",
+                "id": 843,
+                "location": "Beckerhaven",
+                "nickname": "PearlineF",
+                "review_count": 22,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 2,
+                "id": 846,
+                "ratings": Object {
+                  "ambience": 1,
+                  "food": 2,
+                  "noise_level": "do not recall",
+                  "overall": 4,
+                  "service": 3,
+                  "value": 5,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [
+                  "Good for Birthdays",
+                  "Organic",
+                  "Vegan",
+                  "Live Sports",
+                  "Good for Birthdays",
+                  "Great for Lunch",
+                ],
+                "text": "Culpa libero culpa qui aperiam cumque vitae quidem laborum aut. Ducimus neque vero at voluptate sunt voluptatem et autem quibusdam. Ullam consequatur ut et eaque. Sunt voluptas perferendis dolorem vitae odit possimus id mollitia aut. Aut consectetur reiciendis tempore commodi voluptatibus.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-06-28T22:07:28.736Z",
+                "id": 846,
+                "location": "South Kariane",
+                "nickname": "KaleyW",
+                "review_count": 13,
+              },
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "reviews": Array [
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 0,
+                "id": 99,
+                "ratings": Object {
+                  "ambience": 1,
+                  "food": 3,
+                  "noise_level": "moderate",
+                  "overall": 4,
+                  "service": 1,
+                  "value": 2,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [
+                  "Seasonal",
+                  "Spicy",
+                  "People Watching",
+                  "Handcrafted Cocktails",
+                ],
+                "text": "Aliquid et ea maiores dolores voluptas dolorum nemo dolores. Necessitatibus deleniti magni fugit exercitationem nesciunt eum laudantium iste ipsa. Totam aut quasi rerum quidem id consequatur nam atque. Incidunt vitae aperiam quas dolor. Dolor perspiciatis fuga commodi aspernatur qui.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-08-30T18:38:51.322Z",
+                "id": 99,
+                "location": "North Jordane",
+                "nickname": "OlinU",
+                "review_count": 4,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 3,
+                "id": 265,
+                "ratings": Object {
+                  "ambience": 3,
+                  "food": 5,
+                  "noise_level": "moderate",
+                  "overall": 2,
+                  "service": 4,
+                  "value": 5,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [
+                  "Afternoon Tea",
+                ],
+                "text": "Sunt dicta fugiat in doloremque. Accusantium et ipsam aut voluptatem perferendis aliquid possimus perspiciatis rerum. Nihil dignissimos voluptatem qui. Aut saepe iste aut qui deserunt recusandae. Nihil beatae quis quae suscipit sunt dolor et dolores.",
+              },
+              "reviewer": Object {
+                "date_dined": "2016-01-12T08:38:21.784Z",
+                "id": 265,
+                "location": "Idellafort",
+                "nickname": "MaidaS",
+                "review_count": 14,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 0,
+                "id": 382,
+                "ratings": Object {
+                  "ambience": 1,
+                  "food": 4,
+                  "noise_level": "do not recall",
+                  "overall": 2,
+                  "service": 2,
+                  "value": 3,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [
+                  "Late-night Find",
+                ],
+                "text": "Officiis molestias quam hic. Sint possimus commodi ea aut dolorem. Quo sint vel voluptas commodi. Distinctio fugit vel.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-08-19T22:33:56.578Z",
+                "id": 382,
+                "location": "New Violet",
+                "nickname": "KennithB",
+                "review_count": 26,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 0,
+                "id": 401,
+                "ratings": Object {
+                  "ambience": 1,
+                  "food": 3,
+                  "noise_level": "quiet",
+                  "overall": 1,
+                  "service": 5,
+                  "value": 4,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [],
+                "text": "Non omnis aut aut. Deserunt facere voluptatem reiciendis libero veritatis. Commodi ut autem.",
+              },
+              "reviewer": Object {
+                "date_dined": "2016-02-02T22:18:45.741Z",
+                "id": 401,
+                "location": "Port Benjamin",
+                "nickname": "BertS",
+                "review_count": 18,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 2,
+                "id": 419,
+                "ratings": Object {
+                  "ambience": 5,
+                  "food": 3,
+                  "noise_level": "energetic",
+                  "overall": 1,
+                  "service": 2,
+                  "value": 3,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [
+                  "Organic",
+                  "Neighborhood Gem",
+                  "Great for Outdoor Dining",
+                  "Waterfront",
+                ],
+                "text": "Omnis enim neque voluptas enim a distinctio quisquam eligendi. Quis aliquid repudiandae quisquam maiores vel sit distinctio nemo suscipit. Fugiat consequatur ad ab assumenda voluptatem.",
+              },
+              "reviewer": Object {
+                "date_dined": "2016-06-05T21:09:08.475Z",
+                "id": 419,
+                "location": "West Katherine",
+                "nickname": "CasimerD",
+                "review_count": 14,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 1,
+                "id": 426,
+                "ratings": Object {
+                  "ambience": 4,
+                  "food": 1,
+                  "noise_level": "do not recall",
+                  "overall": 3,
+                  "service": 3,
+                  "value": 4,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [
+                  "Business Meals",
+                  "Live Music",
+                  "Spicy",
+                  "Quiet Conversation",
+                ],
+                "text": "Dolore ullam nihil. Dolorum quae odit velit veritatis et et sed harum qui. Sequi similique quaerat consectetur reprehenderit quia quidem totam.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-05-25T08:12:04.582Z",
+                "id": 426,
+                "location": "East Marielachester",
+                "nickname": "CecilB",
+                "review_count": 5,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 3,
+                "id": 553,
+                "ratings": Object {
+                  "ambience": 3,
+                  "food": 4,
+                  "noise_level": "do not recall",
+                  "overall": 4,
+                  "service": 2,
+                  "value": 3,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [],
+                "text": "Dolorem beatae aliquid. Deserunt quisquam tenetur praesentium. Soluta quod labore.",
+              },
+              "reviewer": Object {
+                "date_dined": "2017-05-28T01:54:16.166Z",
+                "id": 553,
+                "location": "West Keegan",
+                "nickname": "BradS",
+                "review_count": 24,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 1,
+                "id": 682,
+                "ratings": Object {
+                  "ambience": 3,
+                  "food": 1,
+                  "noise_level": "quiet",
+                  "overall": 4,
+                  "service": 1,
+                  "value": 2,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [],
+                "text": "Aspernatur omnis deserunt aut qui voluptas. Molestiae rerum aliquid vero expedita sit. Tempora quisquam consequuntur sequi. Ad aut dolorem aliquam est dignissimos officiis.",
+              },
+              "reviewer": Object {
+                "date_dined": "2016-06-11T17:43:08.683Z",
+                "id": 682,
+                "location": "Kautzerborough",
+                "nickname": "VidalR",
+                "review_count": 18,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 0,
+                "id": 843,
+                "ratings": Object {
+                  "ambience": 2,
+                  "food": 5,
+                  "noise_level": "do not recall",
+                  "overall": 1,
+                  "service": 2,
+                  "value": 3,
+                },
+                "recommend_to_friend": false,
+                "tags": Array [
+                  "Comfort Food",
+                  "Quiet Conversation",
+                  "Fit for Foodies",
+                  "Comfort Food",
+                  "Healthy",
+                ],
+                "text": "Nihil culpa porro sed sed modi soluta esse. Rem autem a quod. Quo eos nostrum non. Debitis commodi tempore at mollitia.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-01-14T16:21:49.276Z",
+                "id": 843,
+                "location": "Beckerhaven",
+                "nickname": "PearlineF",
+                "review_count": 22,
+              },
+            },
+            Object {
+              "restaurant": Object {
+                "id": 25,
+              },
+              "review": Object {
+                "helpful_count": 2,
+                "id": 846,
+                "ratings": Object {
+                  "ambience": 1,
+                  "food": 2,
+                  "noise_level": "do not recall",
+                  "overall": 4,
+                  "service": 3,
+                  "value": 5,
+                },
+                "recommend_to_friend": true,
+                "tags": Array [
+                  "Good for Birthdays",
+                  "Organic",
+                  "Vegan",
+                  "Live Sports",
+                  "Good for Birthdays",
+                  "Great for Lunch",
+                ],
+                "text": "Culpa libero culpa qui aperiam cumque vitae quidem laborum aut. Ducimus neque vero at voluptate sunt voluptatem et autem quibusdam. Ullam consequatur ut et eaque. Sunt voluptas perferendis dolorem vitae odit possimus id mollitia aut. Aut consectetur reiciendis tempore commodi voluptatibus.",
+              },
+              "reviewer": Object {
+                "date_dined": "2018-06-28T22:07:28.736Z",
+                "id": 846,
+                "location": "South Kariane",
+                "nickname": "KaleyW",
+                "review_count": 13,
+              },
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "handlePageRender": [Function],
+          "pageNum": 1,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <FilterReviews
+            handleReviewsFilter={[Function]}
+            reviews={
+              Array [
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 0,
+                    "id": 99,
+                    "ratings": Object {
+                      "ambience": 1,
+                      "food": 3,
+                      "noise_level": "moderate",
+                      "overall": 4,
+                      "service": 1,
+                      "value": 2,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [
+                      "Seasonal",
+                      "Spicy",
+                      "People Watching",
+                      "Handcrafted Cocktails",
+                    ],
+                    "text": "Aliquid et ea maiores dolores voluptas dolorum nemo dolores. Necessitatibus deleniti magni fugit exercitationem nesciunt eum laudantium iste ipsa. Totam aut quasi rerum quidem id consequatur nam atque. Incidunt vitae aperiam quas dolor. Dolor perspiciatis fuga commodi aspernatur qui.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-08-30T18:38:51.322Z",
+                    "id": 99,
+                    "location": "North Jordane",
+                    "nickname": "OlinU",
+                    "review_count": 4,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 3,
+                    "id": 265,
+                    "ratings": Object {
+                      "ambience": 3,
+                      "food": 5,
+                      "noise_level": "moderate",
+                      "overall": 2,
+                      "service": 4,
+                      "value": 5,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [
+                      "Afternoon Tea",
+                    ],
+                    "text": "Sunt dicta fugiat in doloremque. Accusantium et ipsam aut voluptatem perferendis aliquid possimus perspiciatis rerum. Nihil dignissimos voluptatem qui. Aut saepe iste aut qui deserunt recusandae. Nihil beatae quis quae suscipit sunt dolor et dolores.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2016-01-12T08:38:21.784Z",
+                    "id": 265,
+                    "location": "Idellafort",
+                    "nickname": "MaidaS",
+                    "review_count": 14,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 0,
+                    "id": 382,
+                    "ratings": Object {
+                      "ambience": 1,
+                      "food": 4,
+                      "noise_level": "do not recall",
+                      "overall": 2,
+                      "service": 2,
+                      "value": 3,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [
+                      "Late-night Find",
+                    ],
+                    "text": "Officiis molestias quam hic. Sint possimus commodi ea aut dolorem. Quo sint vel voluptas commodi. Distinctio fugit vel.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-08-19T22:33:56.578Z",
+                    "id": 382,
+                    "location": "New Violet",
+                    "nickname": "KennithB",
+                    "review_count": 26,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 0,
+                    "id": 401,
+                    "ratings": Object {
+                      "ambience": 1,
+                      "food": 3,
+                      "noise_level": "quiet",
+                      "overall": 1,
+                      "service": 5,
+                      "value": 4,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [],
+                    "text": "Non omnis aut aut. Deserunt facere voluptatem reiciendis libero veritatis. Commodi ut autem.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2016-02-02T22:18:45.741Z",
+                    "id": 401,
+                    "location": "Port Benjamin",
+                    "nickname": "BertS",
+                    "review_count": 18,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 2,
+                    "id": 419,
+                    "ratings": Object {
+                      "ambience": 5,
+                      "food": 3,
+                      "noise_level": "energetic",
+                      "overall": 1,
+                      "service": 2,
+                      "value": 3,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [
+                      "Organic",
+                      "Neighborhood Gem",
+                      "Great for Outdoor Dining",
+                      "Waterfront",
+                    ],
+                    "text": "Omnis enim neque voluptas enim a distinctio quisquam eligendi. Quis aliquid repudiandae quisquam maiores vel sit distinctio nemo suscipit. Fugiat consequatur ad ab assumenda voluptatem.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2016-06-05T21:09:08.475Z",
+                    "id": 419,
+                    "location": "West Katherine",
+                    "nickname": "CasimerD",
+                    "review_count": 14,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 1,
+                    "id": 426,
+                    "ratings": Object {
+                      "ambience": 4,
+                      "food": 1,
+                      "noise_level": "do not recall",
+                      "overall": 3,
+                      "service": 3,
+                      "value": 4,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [
+                      "Business Meals",
+                      "Live Music",
+                      "Spicy",
+                      "Quiet Conversation",
+                    ],
+                    "text": "Dolore ullam nihil. Dolorum quae odit velit veritatis et et sed harum qui. Sequi similique quaerat consectetur reprehenderit quia quidem totam.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-05-25T08:12:04.582Z",
+                    "id": 426,
+                    "location": "East Marielachester",
+                    "nickname": "CecilB",
+                    "review_count": 5,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 3,
+                    "id": 553,
+                    "ratings": Object {
+                      "ambience": 3,
+                      "food": 4,
+                      "noise_level": "do not recall",
+                      "overall": 4,
+                      "service": 2,
+                      "value": 3,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [],
+                    "text": "Dolorem beatae aliquid. Deserunt quisquam tenetur praesentium. Soluta quod labore.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2017-05-28T01:54:16.166Z",
+                    "id": 553,
+                    "location": "West Keegan",
+                    "nickname": "BradS",
+                    "review_count": 24,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 1,
+                    "id": 682,
+                    "ratings": Object {
+                      "ambience": 3,
+                      "food": 1,
+                      "noise_level": "quiet",
+                      "overall": 4,
+                      "service": 1,
+                      "value": 2,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [],
+                    "text": "Aspernatur omnis deserunt aut qui voluptas. Molestiae rerum aliquid vero expedita sit. Tempora quisquam consequuntur sequi. Ad aut dolorem aliquam est dignissimos officiis.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2016-06-11T17:43:08.683Z",
+                    "id": 682,
+                    "location": "Kautzerborough",
+                    "nickname": "VidalR",
+                    "review_count": 18,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 0,
+                    "id": 843,
+                    "ratings": Object {
+                      "ambience": 2,
+                      "food": 5,
+                      "noise_level": "do not recall",
+                      "overall": 1,
+                      "service": 2,
+                      "value": 3,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [
+                      "Comfort Food",
+                      "Quiet Conversation",
+                      "Fit for Foodies",
+                      "Comfort Food",
+                      "Healthy",
+                    ],
+                    "text": "Nihil culpa porro sed sed modi soluta esse. Rem autem a quod. Quo eos nostrum non. Debitis commodi tempore at mollitia.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-01-14T16:21:49.276Z",
+                    "id": 843,
+                    "location": "Beckerhaven",
+                    "nickname": "PearlineF",
+                    "review_count": 22,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 2,
+                    "id": 846,
+                    "ratings": Object {
+                      "ambience": 1,
+                      "food": 2,
+                      "noise_level": "do not recall",
+                      "overall": 4,
+                      "service": 3,
+                      "value": 5,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [
+                      "Good for Birthdays",
+                      "Organic",
+                      "Vegan",
+                      "Live Sports",
+                      "Good for Birthdays",
+                      "Great for Lunch",
+                    ],
+                    "text": "Culpa libero culpa qui aperiam cumque vitae quidem laborum aut. Ducimus neque vero at voluptate sunt voluptatem et autem quibusdam. Ullam consequatur ut et eaque. Sunt voluptas perferendis dolorem vitae odit possimus id mollitia aut. Aut consectetur reiciendis tempore commodi voluptatibus.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-06-28T22:07:28.736Z",
+                    "id": 846,
+                    "location": "South Kariane",
+                    "nickname": "KaleyW",
+                    "review_count": 13,
+                  },
+                },
+              ]
+            }
+          />,
+          <ReviewList
+            reviews={
+              Array [
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 0,
+                    "id": 99,
+                    "ratings": Object {
+                      "ambience": 1,
+                      "food": 3,
+                      "noise_level": "moderate",
+                      "overall": 4,
+                      "service": 1,
+                      "value": 2,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [
+                      "Seasonal",
+                      "Spicy",
+                      "People Watching",
+                      "Handcrafted Cocktails",
+                    ],
+                    "text": "Aliquid et ea maiores dolores voluptas dolorum nemo dolores. Necessitatibus deleniti magni fugit exercitationem nesciunt eum laudantium iste ipsa. Totam aut quasi rerum quidem id consequatur nam atque. Incidunt vitae aperiam quas dolor. Dolor perspiciatis fuga commodi aspernatur qui.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-08-30T18:38:51.322Z",
+                    "id": 99,
+                    "location": "North Jordane",
+                    "nickname": "OlinU",
+                    "review_count": 4,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 3,
+                    "id": 265,
+                    "ratings": Object {
+                      "ambience": 3,
+                      "food": 5,
+                      "noise_level": "moderate",
+                      "overall": 2,
+                      "service": 4,
+                      "value": 5,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [
+                      "Afternoon Tea",
+                    ],
+                    "text": "Sunt dicta fugiat in doloremque. Accusantium et ipsam aut voluptatem perferendis aliquid possimus perspiciatis rerum. Nihil dignissimos voluptatem qui. Aut saepe iste aut qui deserunt recusandae. Nihil beatae quis quae suscipit sunt dolor et dolores.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2016-01-12T08:38:21.784Z",
+                    "id": 265,
+                    "location": "Idellafort",
+                    "nickname": "MaidaS",
+                    "review_count": 14,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 0,
+                    "id": 382,
+                    "ratings": Object {
+                      "ambience": 1,
+                      "food": 4,
+                      "noise_level": "do not recall",
+                      "overall": 2,
+                      "service": 2,
+                      "value": 3,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [
+                      "Late-night Find",
+                    ],
+                    "text": "Officiis molestias quam hic. Sint possimus commodi ea aut dolorem. Quo sint vel voluptas commodi. Distinctio fugit vel.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-08-19T22:33:56.578Z",
+                    "id": 382,
+                    "location": "New Violet",
+                    "nickname": "KennithB",
+                    "review_count": 26,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 0,
+                    "id": 401,
+                    "ratings": Object {
+                      "ambience": 1,
+                      "food": 3,
+                      "noise_level": "quiet",
+                      "overall": 1,
+                      "service": 5,
+                      "value": 4,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [],
+                    "text": "Non omnis aut aut. Deserunt facere voluptatem reiciendis libero veritatis. Commodi ut autem.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2016-02-02T22:18:45.741Z",
+                    "id": 401,
+                    "location": "Port Benjamin",
+                    "nickname": "BertS",
+                    "review_count": 18,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 2,
+                    "id": 419,
+                    "ratings": Object {
+                      "ambience": 5,
+                      "food": 3,
+                      "noise_level": "energetic",
+                      "overall": 1,
+                      "service": 2,
+                      "value": 3,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [
+                      "Organic",
+                      "Neighborhood Gem",
+                      "Great for Outdoor Dining",
+                      "Waterfront",
+                    ],
+                    "text": "Omnis enim neque voluptas enim a distinctio quisquam eligendi. Quis aliquid repudiandae quisquam maiores vel sit distinctio nemo suscipit. Fugiat consequatur ad ab assumenda voluptatem.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2016-06-05T21:09:08.475Z",
+                    "id": 419,
+                    "location": "West Katherine",
+                    "nickname": "CasimerD",
+                    "review_count": 14,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 1,
+                    "id": 426,
+                    "ratings": Object {
+                      "ambience": 4,
+                      "food": 1,
+                      "noise_level": "do not recall",
+                      "overall": 3,
+                      "service": 3,
+                      "value": 4,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [
+                      "Business Meals",
+                      "Live Music",
+                      "Spicy",
+                      "Quiet Conversation",
+                    ],
+                    "text": "Dolore ullam nihil. Dolorum quae odit velit veritatis et et sed harum qui. Sequi similique quaerat consectetur reprehenderit quia quidem totam.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-05-25T08:12:04.582Z",
+                    "id": 426,
+                    "location": "East Marielachester",
+                    "nickname": "CecilB",
+                    "review_count": 5,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 3,
+                    "id": 553,
+                    "ratings": Object {
+                      "ambience": 3,
+                      "food": 4,
+                      "noise_level": "do not recall",
+                      "overall": 4,
+                      "service": 2,
+                      "value": 3,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [],
+                    "text": "Dolorem beatae aliquid. Deserunt quisquam tenetur praesentium. Soluta quod labore.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2017-05-28T01:54:16.166Z",
+                    "id": 553,
+                    "location": "West Keegan",
+                    "nickname": "BradS",
+                    "review_count": 24,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 1,
+                    "id": 682,
+                    "ratings": Object {
+                      "ambience": 3,
+                      "food": 1,
+                      "noise_level": "quiet",
+                      "overall": 4,
+                      "service": 1,
+                      "value": 2,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [],
+                    "text": "Aspernatur omnis deserunt aut qui voluptas. Molestiae rerum aliquid vero expedita sit. Tempora quisquam consequuntur sequi. Ad aut dolorem aliquam est dignissimos officiis.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2016-06-11T17:43:08.683Z",
+                    "id": 682,
+                    "location": "Kautzerborough",
+                    "nickname": "VidalR",
+                    "review_count": 18,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 0,
+                    "id": 843,
+                    "ratings": Object {
+                      "ambience": 2,
+                      "food": 5,
+                      "noise_level": "do not recall",
+                      "overall": 1,
+                      "service": 2,
+                      "value": 3,
+                    },
+                    "recommend_to_friend": false,
+                    "tags": Array [
+                      "Comfort Food",
+                      "Quiet Conversation",
+                      "Fit for Foodies",
+                      "Comfort Food",
+                      "Healthy",
+                    ],
+                    "text": "Nihil culpa porro sed sed modi soluta esse. Rem autem a quod. Quo eos nostrum non. Debitis commodi tempore at mollitia.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-01-14T16:21:49.276Z",
+                    "id": 843,
+                    "location": "Beckerhaven",
+                    "nickname": "PearlineF",
+                    "review_count": 22,
+                  },
+                },
+                Object {
+                  "restaurant": Object {
+                    "id": 25,
+                  },
+                  "review": Object {
+                    "helpful_count": 2,
+                    "id": 846,
+                    "ratings": Object {
+                      "ambience": 1,
+                      "food": 2,
+                      "noise_level": "do not recall",
+                      "overall": 4,
+                      "service": 3,
+                      "value": 5,
+                    },
+                    "recommend_to_friend": true,
+                    "tags": Array [
+                      "Good for Birthdays",
+                      "Organic",
+                      "Vegan",
+                      "Live Sports",
+                      "Good for Birthdays",
+                      "Great for Lunch",
+                    ],
+                    "text": "Culpa libero culpa qui aperiam cumque vitae quidem laborum aut. Ducimus neque vero at voluptate sunt voluptatem et autem quibusdam. Ullam consequatur ut et eaque. Sunt voluptas perferendis dolorem vitae odit possimus id mollitia aut. Aut consectetur reiciendis tempore commodi voluptatibus.",
+                  },
+                  "reviewer": Object {
+                    "date_dined": "2018-06-28T22:07:28.736Z",
+                    "id": 846,
+                    "location": "South Kariane",
+                    "nickname": "KaleyW",
+                    "review_count": 13,
+                  },
+                },
+              ]
+            }
+          />,
+          Array [
+            <PaginationButtons
+              handlePageRender={[Function]}
+              pageNum={1}
+            />,
+          ],
+        ],
+        "className": "reviewPagination",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "handleReviewsFilter": [Function],
+            "reviews": Array [
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 99,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 3,
+                    "noise_level": "moderate",
+                    "overall": 4,
+                    "service": 1,
+                    "value": 2,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Seasonal",
+                    "Spicy",
+                    "People Watching",
+                    "Handcrafted Cocktails",
+                  ],
+                  "text": "Aliquid et ea maiores dolores voluptas dolorum nemo dolores. Necessitatibus deleniti magni fugit exercitationem nesciunt eum laudantium iste ipsa. Totam aut quasi rerum quidem id consequatur nam atque. Incidunt vitae aperiam quas dolor. Dolor perspiciatis fuga commodi aspernatur qui.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-08-30T18:38:51.322Z",
+                  "id": 99,
+                  "location": "North Jordane",
+                  "nickname": "OlinU",
+                  "review_count": 4,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 3,
+                  "id": 265,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 5,
+                    "noise_level": "moderate",
+                    "overall": 2,
+                    "service": 4,
+                    "value": 5,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Afternoon Tea",
+                  ],
+                  "text": "Sunt dicta fugiat in doloremque. Accusantium et ipsam aut voluptatem perferendis aliquid possimus perspiciatis rerum. Nihil dignissimos voluptatem qui. Aut saepe iste aut qui deserunt recusandae. Nihil beatae quis quae suscipit sunt dolor et dolores.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-01-12T08:38:21.784Z",
+                  "id": 265,
+                  "location": "Idellafort",
+                  "nickname": "MaidaS",
+                  "review_count": 14,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 382,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 4,
+                    "noise_level": "do not recall",
+                    "overall": 2,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Late-night Find",
+                  ],
+                  "text": "Officiis molestias quam hic. Sint possimus commodi ea aut dolorem. Quo sint vel voluptas commodi. Distinctio fugit vel.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-08-19T22:33:56.578Z",
+                  "id": 382,
+                  "location": "New Violet",
+                  "nickname": "KennithB",
+                  "review_count": 26,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 401,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 3,
+                    "noise_level": "quiet",
+                    "overall": 1,
+                    "service": 5,
+                    "value": 4,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [],
+                  "text": "Non omnis aut aut. Deserunt facere voluptatem reiciendis libero veritatis. Commodi ut autem.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-02-02T22:18:45.741Z",
+                  "id": 401,
+                  "location": "Port Benjamin",
+                  "nickname": "BertS",
+                  "review_count": 18,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 2,
+                  "id": 419,
+                  "ratings": Object {
+                    "ambience": 5,
+                    "food": 3,
+                    "noise_level": "energetic",
+                    "overall": 1,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Organic",
+                    "Neighborhood Gem",
+                    "Great for Outdoor Dining",
+                    "Waterfront",
+                  ],
+                  "text": "Omnis enim neque voluptas enim a distinctio quisquam eligendi. Quis aliquid repudiandae quisquam maiores vel sit distinctio nemo suscipit. Fugiat consequatur ad ab assumenda voluptatem.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-06-05T21:09:08.475Z",
+                  "id": 419,
+                  "location": "West Katherine",
+                  "nickname": "CasimerD",
+                  "review_count": 14,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 1,
+                  "id": 426,
+                  "ratings": Object {
+                    "ambience": 4,
+                    "food": 1,
+                    "noise_level": "do not recall",
+                    "overall": 3,
+                    "service": 3,
+                    "value": 4,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Business Meals",
+                    "Live Music",
+                    "Spicy",
+                    "Quiet Conversation",
+                  ],
+                  "text": "Dolore ullam nihil. Dolorum quae odit velit veritatis et et sed harum qui. Sequi similique quaerat consectetur reprehenderit quia quidem totam.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-05-25T08:12:04.582Z",
+                  "id": 426,
+                  "location": "East Marielachester",
+                  "nickname": "CecilB",
+                  "review_count": 5,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 3,
+                  "id": 553,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 4,
+                    "noise_level": "do not recall",
+                    "overall": 4,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [],
+                  "text": "Dolorem beatae aliquid. Deserunt quisquam tenetur praesentium. Soluta quod labore.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2017-05-28T01:54:16.166Z",
+                  "id": 553,
+                  "location": "West Keegan",
+                  "nickname": "BradS",
+                  "review_count": 24,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 1,
+                  "id": 682,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 1,
+                    "noise_level": "quiet",
+                    "overall": 4,
+                    "service": 1,
+                    "value": 2,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [],
+                  "text": "Aspernatur omnis deserunt aut qui voluptas. Molestiae rerum aliquid vero expedita sit. Tempora quisquam consequuntur sequi. Ad aut dolorem aliquam est dignissimos officiis.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-06-11T17:43:08.683Z",
+                  "id": 682,
+                  "location": "Kautzerborough",
+                  "nickname": "VidalR",
+                  "review_count": 18,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 843,
+                  "ratings": Object {
+                    "ambience": 2,
+                    "food": 5,
+                    "noise_level": "do not recall",
+                    "overall": 1,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Comfort Food",
+                    "Quiet Conversation",
+                    "Fit for Foodies",
+                    "Comfort Food",
+                    "Healthy",
+                  ],
+                  "text": "Nihil culpa porro sed sed modi soluta esse. Rem autem a quod. Quo eos nostrum non. Debitis commodi tempore at mollitia.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-01-14T16:21:49.276Z",
+                  "id": 843,
+                  "location": "Beckerhaven",
+                  "nickname": "PearlineF",
+                  "review_count": 22,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 2,
+                  "id": 846,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 2,
+                    "noise_level": "do not recall",
+                    "overall": 4,
+                    "service": 3,
+                    "value": 5,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Good for Birthdays",
+                    "Organic",
+                    "Vegan",
+                    "Live Sports",
+                    "Good for Birthdays",
+                    "Great for Lunch",
+                  ],
+                  "text": "Culpa libero culpa qui aperiam cumque vitae quidem laborum aut. Ducimus neque vero at voluptate sunt voluptatem et autem quibusdam. Ullam consequatur ut et eaque. Sunt voluptas perferendis dolorem vitae odit possimus id mollitia aut. Aut consectetur reiciendis tempore commodi voluptatibus.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-06-28T22:07:28.736Z",
+                  "id": 846,
+                  "location": "South Kariane",
+                  "nickname": "KaleyW",
+                  "review_count": 13,
+                },
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "reviews": Array [
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 99,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 3,
+                    "noise_level": "moderate",
+                    "overall": 4,
+                    "service": 1,
+                    "value": 2,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Seasonal",
+                    "Spicy",
+                    "People Watching",
+                    "Handcrafted Cocktails",
+                  ],
+                  "text": "Aliquid et ea maiores dolores voluptas dolorum nemo dolores. Necessitatibus deleniti magni fugit exercitationem nesciunt eum laudantium iste ipsa. Totam aut quasi rerum quidem id consequatur nam atque. Incidunt vitae aperiam quas dolor. Dolor perspiciatis fuga commodi aspernatur qui.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-08-30T18:38:51.322Z",
+                  "id": 99,
+                  "location": "North Jordane",
+                  "nickname": "OlinU",
+                  "review_count": 4,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 3,
+                  "id": 265,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 5,
+                    "noise_level": "moderate",
+                    "overall": 2,
+                    "service": 4,
+                    "value": 5,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Afternoon Tea",
+                  ],
+                  "text": "Sunt dicta fugiat in doloremque. Accusantium et ipsam aut voluptatem perferendis aliquid possimus perspiciatis rerum. Nihil dignissimos voluptatem qui. Aut saepe iste aut qui deserunt recusandae. Nihil beatae quis quae suscipit sunt dolor et dolores.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-01-12T08:38:21.784Z",
+                  "id": 265,
+                  "location": "Idellafort",
+                  "nickname": "MaidaS",
+                  "review_count": 14,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 382,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 4,
+                    "noise_level": "do not recall",
+                    "overall": 2,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Late-night Find",
+                  ],
+                  "text": "Officiis molestias quam hic. Sint possimus commodi ea aut dolorem. Quo sint vel voluptas commodi. Distinctio fugit vel.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-08-19T22:33:56.578Z",
+                  "id": 382,
+                  "location": "New Violet",
+                  "nickname": "KennithB",
+                  "review_count": 26,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 401,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 3,
+                    "noise_level": "quiet",
+                    "overall": 1,
+                    "service": 5,
+                    "value": 4,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [],
+                  "text": "Non omnis aut aut. Deserunt facere voluptatem reiciendis libero veritatis. Commodi ut autem.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-02-02T22:18:45.741Z",
+                  "id": 401,
+                  "location": "Port Benjamin",
+                  "nickname": "BertS",
+                  "review_count": 18,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 2,
+                  "id": 419,
+                  "ratings": Object {
+                    "ambience": 5,
+                    "food": 3,
+                    "noise_level": "energetic",
+                    "overall": 1,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Organic",
+                    "Neighborhood Gem",
+                    "Great for Outdoor Dining",
+                    "Waterfront",
+                  ],
+                  "text": "Omnis enim neque voluptas enim a distinctio quisquam eligendi. Quis aliquid repudiandae quisquam maiores vel sit distinctio nemo suscipit. Fugiat consequatur ad ab assumenda voluptatem.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-06-05T21:09:08.475Z",
+                  "id": 419,
+                  "location": "West Katherine",
+                  "nickname": "CasimerD",
+                  "review_count": 14,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 1,
+                  "id": 426,
+                  "ratings": Object {
+                    "ambience": 4,
+                    "food": 1,
+                    "noise_level": "do not recall",
+                    "overall": 3,
+                    "service": 3,
+                    "value": 4,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Business Meals",
+                    "Live Music",
+                    "Spicy",
+                    "Quiet Conversation",
+                  ],
+                  "text": "Dolore ullam nihil. Dolorum quae odit velit veritatis et et sed harum qui. Sequi similique quaerat consectetur reprehenderit quia quidem totam.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-05-25T08:12:04.582Z",
+                  "id": 426,
+                  "location": "East Marielachester",
+                  "nickname": "CecilB",
+                  "review_count": 5,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 3,
+                  "id": 553,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 4,
+                    "noise_level": "do not recall",
+                    "overall": 4,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [],
+                  "text": "Dolorem beatae aliquid. Deserunt quisquam tenetur praesentium. Soluta quod labore.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2017-05-28T01:54:16.166Z",
+                  "id": 553,
+                  "location": "West Keegan",
+                  "nickname": "BradS",
+                  "review_count": 24,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 1,
+                  "id": 682,
+                  "ratings": Object {
+                    "ambience": 3,
+                    "food": 1,
+                    "noise_level": "quiet",
+                    "overall": 4,
+                    "service": 1,
+                    "value": 2,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [],
+                  "text": "Aspernatur omnis deserunt aut qui voluptas. Molestiae rerum aliquid vero expedita sit. Tempora quisquam consequuntur sequi. Ad aut dolorem aliquam est dignissimos officiis.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2016-06-11T17:43:08.683Z",
+                  "id": 682,
+                  "location": "Kautzerborough",
+                  "nickname": "VidalR",
+                  "review_count": 18,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 0,
+                  "id": 843,
+                  "ratings": Object {
+                    "ambience": 2,
+                    "food": 5,
+                    "noise_level": "do not recall",
+                    "overall": 1,
+                    "service": 2,
+                    "value": 3,
+                  },
+                  "recommend_to_friend": false,
+                  "tags": Array [
+                    "Comfort Food",
+                    "Quiet Conversation",
+                    "Fit for Foodies",
+                    "Comfort Food",
+                    "Healthy",
+                  ],
+                  "text": "Nihil culpa porro sed sed modi soluta esse. Rem autem a quod. Quo eos nostrum non. Debitis commodi tempore at mollitia.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-01-14T16:21:49.276Z",
+                  "id": 843,
+                  "location": "Beckerhaven",
+                  "nickname": "PearlineF",
+                  "review_count": 22,
+                },
+              },
+              Object {
+                "restaurant": Object {
+                  "id": 25,
+                },
+                "review": Object {
+                  "helpful_count": 2,
+                  "id": 846,
+                  "ratings": Object {
+                    "ambience": 1,
+                    "food": 2,
+                    "noise_level": "do not recall",
+                    "overall": 4,
+                    "service": 3,
+                    "value": 5,
+                  },
+                  "recommend_to_friend": true,
+                  "tags": Array [
+                    "Good for Birthdays",
+                    "Organic",
+                    "Vegan",
+                    "Live Sports",
+                    "Good for Birthdays",
+                    "Great for Lunch",
+                  ],
+                  "text": "Culpa libero culpa qui aperiam cumque vitae quidem laborum aut. Ducimus neque vero at voluptate sunt voluptatem et autem quibusdam. Ullam consequatur ut et eaque. Sunt voluptas perferendis dolorem vitae odit possimus id mollitia aut. Aut consectetur reiciendis tempore commodi voluptatibus.",
+                },
+                "reviewer": Object {
+                  "date_dined": "2018-06-28T22:07:28.736Z",
+                  "id": 846,
+                  "location": "South Kariane",
+                  "nickname": "KaleyW",
+                  "review_count": 13,
+                },
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "handlePageRender": [Function],
+            "pageNum": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
