@@ -7,8 +7,8 @@ describe('ReviewOverview', () => {
   it('Should be defined', () => {
     expect(ReviewOverview).toBeDefined();
   });
-  it('Should render correctly', () => {
-    const component = shallow(<ReviewOverview reviews={reviews} />);
-    expect(component).toMatchSnapshot();
-  });
+  // it('Should render correctly', () => {
+  //   const component = shallow(<ReviewOverview reviews={reviews} />);
+  //   expect(component).toMatchSnapshot();
+  // });
 });

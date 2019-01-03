@@ -25,7 +25,7 @@ export default class App extends React.Component {
     const url = new Url(window.location.href);
     const id = url.pathname.split('/')[3];
     // eslint-disable-next-line no-undef
-    fetch(`/api/restaurants/${id}/reviews`)
+    fetch(`http://localhost:3004/api/restaurants/${id}/reviews`)
     // eslint-disable-next-line arrow-parens
       .then(response => response.json())
       .then((data) => {
@@ -40,7 +40,7 @@ export default class App extends React.Component {
     const id = url.pathname.split('/')[3];
     const { sortBy } = this.state;
     // eslint-disable-next-line no-undef
-    fetch(`/api/restaurants/${id}/reviews?sort=${sortBy}`)
+    fetch(`http://localhost:3004/api/restaurants/${id}/reviews?sort=${sortBy}`)
       // eslint-disable-next-line arrow-parens
       .then(response => response.json())
       .then((data) => {

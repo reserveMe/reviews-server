@@ -116,6 +116,10 @@ export const ReviewEntryMidDot = styled.span`
     padding-left: 1rem;
 `;
 
+export const ReviewTextDots = styled.span`  
+    color: #d8d9db;
+`;
+
 export const ReviewTextReadClick = styled.div`
     color: #da3743;
 `;

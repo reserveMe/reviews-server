@@ -7,9 +7,9 @@ describe('FilterReviews', () => {
   it('Should be defined', () => {
     expect(FilterReviews).toBeDefined();
   });
-  it('Should render correctly', () => {
-    const component = shallow(<FilterReviews reviews={reviews} />);
-    expect(component).toMatchSnapshot();
-  });
+  // it('Should render correctly', () => {
+  //   const component = shallow(<FilterReviews reviews={reviews} />);
+  //   expect(component).toMatchSnapshot();
+  // });
   
 });
