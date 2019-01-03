@@ -31,4 +31,8 @@ module.exports = {
 
   // Indicates whether each individual test should be reported during the run
   verbose: true,
+
+  // moduleNameMapper: { '\\.(css|jpg|png)$': '<rootDir>/empty-module.js' },
+
+  setupTestFrameworkScriptFile: '<rootDir>/jest-setup-framework.js',
 };

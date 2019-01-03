@@ -19,6 +19,9 @@ class ReviewListEntry extends React.Component {
     if (readAll) {
       return review.review.text;
     }
+    if (review.review.text.length >= 215) {
+      return `${review.review.text.slice(0, 215)} ...`;
+    }
     return review.review.text.slice(0, 215);
   }
 
@@ -35,7 +38,9 @@ class ReviewListEntry extends React.Component {
         <Styled.AuthorSection>
           <Styled.AuthorBubble>
             <span>
-              {review.reviewer.nickname[0] + review.reviewer.nickname[review.reviewer.nickname.length - 1]}
+              {review.reviewer.nickname[review.reviewer.nickname.length - 1] === review.reviewer.nickname[review.reviewer.nickname.length - 1].toUpperCase()
+                ? review.reviewer.nickname[0] + review.reviewer.nickname[review.reviewer.nickname.length - 1]
+                : review.reviewer.nickname[0].toUpperCase()}
             </span>
           </Styled.AuthorBubble>
           <Styled.AuthorName>
@@ -117,16 +122,18 @@ class ReviewListEntry extends React.Component {
           {this.getReviewText()}
           <br />
           {review.review.text.length > 215
-            ? (<Styled.ReviewTextReadClick onClick={this.toggleText}>
+            ? (
+              <Styled.ReviewTextReadClick onClick={this.toggleText}>
                 {this.state.readAll ? '- Read less' : '+ Read more'}
                 <br />
-              </Styled.ReviewTextReadClick>)
+              </Styled.ReviewTextReadClick>
+            )
             : (<br />)}
         </Styled.ReviewDetailsSection>
       </Styled.ReviewEntry>
     );
   }
-};
+}
 
 ReviewListEntry.propTypes = {
   review: PropTypes.object.isRequired,
