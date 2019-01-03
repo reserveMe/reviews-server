@@ -23,7 +23,7 @@ export default class App extends React.Component {
 
   componentDidMount() {
     const url = new Url(window.location.href);
-    const id = url.pathname.split('/')[3];
+    const id = url.pathname.split('/')[2];
     // eslint-disable-next-line no-undef
     fetch(`http://localhost:3004/api/restaurants/${id}/reviews`)
     // eslint-disable-next-line arrow-parens
@@ -37,7 +37,7 @@ export default class App extends React.Component {
 
   getReviewsSorted() {
     const url = new Url(window.location.href);
-    const id = url.pathname.split('/')[3];
+    const id = url.pathname.split('/')[2];
     const { sortBy } = this.state;
     // eslint-disable-next-line no-undef
     fetch(`http://localhost:3004/api/restaurants/${id}/reviews?sort=${sortBy}`)
