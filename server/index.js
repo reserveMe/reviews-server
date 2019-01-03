@@ -9,7 +9,13 @@ const db = require('./../database/index.js');
 app.use(morgan('tiny'));
 app.use(bodyParser());
 
-app.use('/api/restaurants/:id', express.static(`${__dirname}/../client/dist`));
+app.use('/restaurants/:id', express.static(`${__dirname}/../client/dist`));
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
 
 app.get('/api/restaurants/:id/reviews', (req, res) => {
   let sortQuery = 'newest';
@@ -25,13 +31,13 @@ app.get('/api/restaurants/:id/reviews', (req, res) => {
   });
 });
 
-app.patch('/api/reviews/:review_id', (req, res) => {
-  db.updateHelpfulCount(parseInt(req.params.review_id, 10), (err, results) => {
-    if (err) {
-      console.log(err);
-    }
-    res.send(JSON.stringify(results));
-  });
-});
+// app.patch('/api/reviews/:review_id', (req, res) => {
+//   db.updateHelpfulCount(parseInt(req.params.review_id, 10), (err, results) => {
+//     if (err) {
+//       console.log(err);
+//     }
+//     res.send(JSON.stringify(results));
+//   });
+// });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
