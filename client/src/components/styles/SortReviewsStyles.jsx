@@ -24,6 +24,6 @@ export const SortSelector = styled.select`
     padding:6px 0.25rem;
 
     :hover {
-        border:2px solid #da3743
+        border:1px solid #da3743
     }
 `;

@@ -29,7 +29,7 @@ export const RatingsItem = styled.div`
 
     :hover {
         .reviewbaritem {
-            border:2px solid #da3743
+            border:1px solid #da3743
         }
     }
 `;

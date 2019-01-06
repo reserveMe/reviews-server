@@ -20,9 +20,24 @@ export const FilterButton = styled.button`
     box-sizing:border-box;
     font-size:.9rem;
     justify-content:space-between;
-    padding:6px 0.25rem;
+    padding:5px .5rem;
 
     :hover {
-        border:2px solid #da3743
+        border:1px solid #da3743
     }
+`;
+
+export const FilterDot = styled.span`
+    height: 6px;
+    width: 6px;
+    background-color: #da3743;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+`;
+
+export const FilterTagTwo = styled.span`
+    display: inline-block;
+    margin-left: 2px;
 `;

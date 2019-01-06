@@ -20,7 +20,7 @@ class ReviewListEntry extends React.Component {
       return review.review.text;
     }
     if (review.review.text.length >= 215) {
-      return `${review.review.text.slice(0, 215)} ...`;
+      return `${review.review.text.slice(0, 215)}...`;
     }
     return review.review.text.slice(0, 215);
   }

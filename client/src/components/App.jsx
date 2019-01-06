@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import React from 'react';
 import Url from 'url-parse';
 import ReviewOverview from './ReviewOverview.jsx';
@@ -15,6 +14,7 @@ export default class App extends React.Component {
       reviews: [],
       sortBy: 'newest',
       filteredReviews: [],
+      ratingNum: null,
     };
     this.getReviewsSorted = this.getReviewsSorted.bind(this);
     this.handleRatingsFilterChange = this.handleRatingsFilterChange.bind(this);
@@ -24,9 +24,7 @@ export default class App extends React.Component {
   componentDidMount() {
     const url = new Url(window.location.href);
     const id = url.pathname.split('/')[2];
-    // eslint-disable-next-line no-undef
-    fetch(`http://localhost:3004/api/restaurants/${id}/reviews`)
-    // eslint-disable-next-line arrow-parens
+    fetch(`/api/restaurants/${id}/reviews`)
       .then(response => response.json())
       .then((data) => {
         this.setState({
@@ -39,9 +37,7 @@ export default class App extends React.Component {
     const url = new Url(window.location.href);
     const id = url.pathname.split('/')[2];
     const { sortBy } = this.state;
-    // eslint-disable-next-line no-undef
-    fetch(`http://localhost:3004/api/restaurants/${id}/reviews?sort=${sortBy}`)
-      // eslint-disable-next-line arrow-parens
+    fetch(`/api/restaurants/${id}/reviews?sort=${sortBy}`)
       .then(response => response.json())
       .then((data) => {
         this.setState({
@@ -58,6 +54,9 @@ export default class App extends React.Component {
 
   handleRatingsFilterChange(rating) {
     const ratingNum = parseInt(rating, 10);
+    this.setState({
+      ratingNum,
+    });
     const filteredReviews = this.state.reviews.filter(element => element.review.ratings.overall === ratingNum);
     this.setState({
       filteredReviews,
@@ -65,17 +64,25 @@ export default class App extends React.Component {
   }
 
   render() {
-    const pagedReviews = this.state.filteredReviews.length ? this.state.filteredReviews : this.state.reviews;
+    const pagedReviews = this.state.filteredReviews.length 
+      ? this.state.filteredReviews 
+      : this.state.reviews;
     return (
       <div className="reviewsTotal">
-        <Styled.ReviewOverviewTitle>What {this.state.reviews.length} People are Saying</Styled.ReviewOverviewTitle>
+        <Styled.ReviewOverviewTitle>
+          What
+          {' '}
+          {this.state.reviews.length}
+          {' '}
+          People are Saying
+        </Styled.ReviewOverviewTitle>
         <Styled.RatingsOverviewTitle>Overall ratings and reviews</Styled.RatingsOverviewTitle>
         <Styled.RatingsOverviewTable>
           <ReviewOverview reviews={this.state.reviews} />
           <RatingsGraph reviews={this.state.reviews} handleRatingsFilter={this.handleRatingsFilterChange} />
         </Styled.RatingsOverviewTable>
         <SortReviews handleSortByChange={this.handleSortByChange} />
-        <PaginatedReviews reviews={pagedReviews} />
+        <PaginatedReviews reviews={pagedReviews} ratingNum={this.state.ratingNum} />
         <GlobalStyle />
       </div>
     );
