@@ -1,6 +1,6 @@
 # Reserve.me
 
-> Project description
+> An implementation of a restaurant reviews app.
 
 ## Related Projects
 
@@ -18,6 +18,7 @@
 ## Usage
 
 > 
+* Run `npm install` within the root directory.
 * Ensure Mongoose and Mongo are running. 
 * In order to seed the database with 3,015 entries of review data, run `npm run seed`. 
 * To start webpack, run `npm run react-dev`. 
