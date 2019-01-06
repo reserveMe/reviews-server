@@ -13,10 +13,12 @@ class FilterReviewsButton extends React.Component {
 
   handleFilterClick(e) {
     const { handleReviewsFilter } = this.props;
-    this.setState({
-      clicked: !this.state.clicked,
-    });
-    handleReviewsFilter(e.target.name);
+    if (!parseInt(e.target.name, 10)) {
+      this.setState({
+        clicked: !this.state.clicked,
+      });
+      handleReviewsFilter(e.target.name);
+    }
   }
 
   render() {
