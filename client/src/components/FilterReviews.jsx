@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// eslint-disable-next-line import/extensions
 import FilterReviewsButton from './FilterReviewsButton.jsx';
 import * as Styled from './styles/FilterReviewsStyles.jsx';
 
@@ -22,14 +21,15 @@ const FilterReviews = (props) => {
     }
   });
   const sortedTags = [];
-  // eslint-disable-next-line no-restricted-syntax
   for (const tags in cache) {
     if ({}.hasOwnProperty.call(cache, tags)) {
       sortedTags.push([tags, cache[tags]]);
     }
   }
   sortedTags.sort((a, b) => b[1] - a[1]);
-  const topTags = sortedTags.slice(0, 4);
+  const topTags = props.ratingNum
+    ? [[props.ratingNum]].concat(sortedTags.slice(0, 4))
+    : sortedTags.slice(0, 4);
   return (
     <div className="reviewFilters">
       <Styled.FilterTitle>

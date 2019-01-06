@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import React from 'react';
 import _ from 'underscore';
 import ReviewList from './ReviewList.jsx';
@@ -46,7 +45,7 @@ class PaginatedReviews extends React.Component {
       : _.range(1, ((Math.ceil(this.props.reviews.length / this.state.pageLimit)) + 1));
     return (
       <div className="reviewPagination">
-        <FilterReviews reviews={this.props.reviews} handleReviewsFilter={this.handleReviewsFilter} />
+        <FilterReviews reviews={this.props.reviews} ratingNum={this.props.ratingNum} handleReviewsFilter={this.handleReviewsFilter} />
         <ReviewList reviews={reviews} />
         <Styled.PaginationRow>
           {pageNums.map(pageNum => (
