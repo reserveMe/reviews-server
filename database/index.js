@@ -1,4 +1,5 @@
-const uri = 'mongodb://172.17.0.2:27017/fec';
+// const uri = 'mongodb://172.17.0.2:27017/fec';
+const uri = 'mongodb://localhost:27017/fec';
 const mongoose = require('mongoose');
 
 const serverOptions = {
