@@ -24,13 +24,12 @@ class PaginatedReviews extends React.Component {
   }
 
   handleReviewsFilter(filter) {
-    const { filters } = this.state;
-    if (filters.indexOf(filter) === -1) {
+    if (this.state.filters.indexOf(filter) === -1) {
       this.setState(prevState => ({
         filters: [...prevState.filters, filter],
       }));
     } else {
-      const unclickedFilter = filters.filter(item => item !== filter);
+      const unclickedFilter = this.state.filters.filter(item => item !== filter);
       this.setState({ filters: unclickedFilter });
     }
   }
@@ -45,7 +44,7 @@ class PaginatedReviews extends React.Component {
       : _.range(1, ((Math.ceil(this.props.reviews.length / this.state.pageLimit)) + 1));
     return (
       <div className="reviewPagination">
-        <FilterReviews reviews={this.props.reviews} ratingNum={this.props.ratingNum} handleReviewsFilter={this.handleReviewsFilter} />
+        <FilterReviews reviews={this.props.reviews} handleReviewsFilter={this.handleReviewsFilter} />
         <ReviewList reviews={reviews} />
         <Styled.PaginationRow>
           {pageNums.map(pageNum => (
